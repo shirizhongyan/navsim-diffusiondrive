@@ -1,0 +1,9 @@
+2026-09-14 19:34:25,395 INFO {/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/DiffusionDrive/navsim/planning/script/builders/worker_pool_builder.py:20}  Building WorkerPool...
+2026-09-14 19:34:26,561 INFO {/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/.venv/lib/python3.10/site-packages/nuplan/planning/utils/multithreading/worker_ray.py:78}  Starting ray local!
+2026-09-14 19:34:33,078 INFO {/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/.venv/lib/python3.10/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:101}  Worker: RayDistributed
+2026-09-14 19:34:33,078 INFO {/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/.venv/lib/python3.10/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:102}  Number of nodes: 1
+Number of CPUs per node: 32
+Number of GPUs per node: 1
+Number of threads across all nodes: 32
+2026-09-14 19:34:33,078 INFO {/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/DiffusionDrive/navsim/planning/script/builders/worker_pool_builder.py:31}  Building WorkerPool...DONE!
+2026-09-14 19:34:36,461 INFO {/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/DiffusionDrive/navsim/planning/script/run_pdm_score.py:130}  Starting pdm scoring of 12146 scenarios...

@@ -1,0 +1,2 @@
+Starting worker in thread_id=4fd25d60-ff2f-445e-90de-ce60238f4abe, node_id=0
+Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)

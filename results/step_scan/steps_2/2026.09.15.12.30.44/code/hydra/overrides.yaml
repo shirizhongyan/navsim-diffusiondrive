@@ -1,0 +1,7 @@
+- train_test_split=navtest
+- train_test_split.scene_filter.max_scenes=1200
+- agent=diffusiondrive_agent
+- worker=ray_distributed
+- worker.threads_per_node=6
+- agent.checkpoint_path=/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/ckpt/hf_diffusiondrive/diffusiondrive_navsim_88p1_PDMS
+- experiment_name=step_scan/steps_2

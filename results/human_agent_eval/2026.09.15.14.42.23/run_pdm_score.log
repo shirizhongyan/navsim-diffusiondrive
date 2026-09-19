@@ -1,0 +1,16 @@
+[2026-09-15 14:42:24,208][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2026-09-15 14:42:25,398][nuplan.planning.utils.multithreading.worker_ray][INFO] - Starting ray local!
+[2026-09-15 14:42:30,852][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributed
+[2026-09-15 14:42:30,852][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 6
+Number of GPUs per node: 1
+Number of threads across all nodes: 6
+[2026-09-15 14:42:30,852][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!
+[2026-09-15 14:42:33,793][__main__][INFO] - Starting pdm scoring of 12146 scenarios...
+[2026-09-15 14:44:52,876][__main__][INFO] - 
+        Finished running evaluation.
+            Number of successful scenarios: 12146.
+            Number of failed scenarios: 0.
+            Final average score of valid results: 0.945514038531965.
+            Results are stored in: /home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/exp/human_agent_eval/2026.09.15.14.42.23/2026.09.15.14.44.52.csv.
+        

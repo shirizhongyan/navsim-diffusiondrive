@@ -1,0 +1,5 @@
+- train_test_split=navtest
+- agent=diffusiondrive_agent
+- worker=ray_distributed
+- agent.checkpoint_path=/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/ckpt/hf_diffusiondrive/diffusiondrive_navsim_88p1_PDMS
+- experiment_name=diffusiondrive_agent_eval

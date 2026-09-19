@@ -1,0 +1,6 @@
+Starting worker in thread_id=0156a4c9-4a37-4ba4-8d65-91d0149c79e6, node_id=0
+Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)
+HTTP Request: HEAD https://hf-mirror.com/timm/resnet34.a1_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+[timm/resnet34.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+Processing scenario 1 / 214 in thread_id=0156a4c9-4a37-4ba4-8d65-91d0149c79e6, node_id=0

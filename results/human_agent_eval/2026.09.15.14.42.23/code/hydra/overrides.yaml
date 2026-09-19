@@ -1,0 +1,5 @@
+- train_test_split=navtest
+- agent=human_agent
+- worker=ray_distributed
+- worker.threads_per_node=6
+- experiment_name=human_agent_eval
