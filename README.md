@@ -1,69 +1,125 @@
-# navsim-diffusiondrive
+# 端到端自动驾驶规划：DiffusionDrive × NAVSIM
 
-我在消费级显卡（单/双 RTX 5070 Ti 16G）上把 DiffusionDrive（CVPR 2025 Highlight）在 NAVSIM 基准上完整跑了一遍，并且不止于跑通：把失败案例拆开看了一千多张图，试着用"错题加权"的思路去修，最后得到了一些论文里没有的认识——包括一个诚实的负结果。
+面向端到端决策规划的实验与优化项目，基于 DiffusionDrive 构建**多传感器轨迹预测、仿真评分、长尾场景分析与加权微调**的完整流程。在 RTX 5070 Ti 16GB 消费级 GPU 平台上完成全量基准评测，并围绕推理效率与碰撞场景优化开展对比实验。
 
-## 结果一览
+项目以相机和激光雷达为输入，输出未来 4 秒轨迹；结合逐场景评分、鸟瞰图和相机可视化，将模型评测进一步落实到失败定位、训练样本构建和优化效果验证。
 
-- 复现基线 **PDMS 88.07**（官方 88.1），navtest 全量 12146 场景零失败；同管线实测人类司机基线 94.55，比论文常引的 91 高不少，"超越人类"的门槛其实比想象中高
-- 扩散步数扫描：**1 步推理 89 FPS 且不掉分**（官方默认 2 步 74 FPS），截断扩散"锚点已约束解空间"的论断在消费级硬件上成立
-- 失败归因：排除 CSV 的 `average` 汇总行后，12146 个场景里碰撞扣分 224、驶出可行驶区域扣分 457、TTC 扣分 635。旧文的 225/458/636 误计了汇总行；人工查看的代表场景提示弯道／环岛几何控制值得重点排查，不能据此证明其占所有失败的比例。
-- 错题加权微调：v1 掉分后调整学习率和轮数，v2 epoch02 的 **PDMS 87.90，比基线 88.07 低约 0.17 分**；修复了 16/224 个基线碰撞扣分场景，也新增 10 个，因此净减少 6 个。不将单次评测差值称为已验证的“噪声带内持平”。
+## 核心成果
 
-![对比图](blog/figures/v1_v2_comparison.png)
+| 方向 | 结果 |
+| --- | --- |
+| **基准评测** | 在 NAVSIM navtest **12,146 个场景**上完成全量评测，PDMS **88.07**，接近官方报告的 88.1；全部场景有效完成评分 |
+| **推理效率** | 单步扩散模型前向平均 **11.28 ms，约 88.7 FPS**；相较默认 2 步的 13.47 ms，延迟降低约 **16.3%** |
+| **步数与精度权衡** | 在相同 **1,200 场景子集**上，1 步／2 步 PDMS 分别为 **92.91／92.56**，完成 1–20 步精度与延迟扫描 |
+| **长尾场景分析** | 建立碰撞、可行驶区域、TTC、行驶进度等多维失败分类，定位 **224 个碰撞扣分场景**，结合 BEV／相机动画检查代表案例 |
+| **数据驱动微调** | 为 **103,288 个训练场景**提取代理特征，设计有上限的加权采样策略；v2 epoch02 修复 **16 个**基线碰撞扣分场景，新增 10 个，净减少 **6 个** |
+| **实验可追溯** | 保留 **7 组完整评测、85,022 条场景结果**，以及训练配置、事件记录、逐阶段权重与自动校验入口 |
 
-## 思考
+效率数据为 GPU 同步后的模型前向计时，不包含传感器预处理或整车控制链路。步数扫描为子集实验，不与全量 navtest 分数直接比较。
 
-复现只是入场券，真正有意思的是后面两件事。
+## 技术方案
 
-一是**失败不是均匀分布的**。光看 PDMS 总分你会觉得模型"哪里都差一点"，但把每个失败场景拉到鸟瞰图里看轨迹才发现，问题高度集中在弯道横向控制和路口让行上——这直接决定了微调该往哪个方向用力，也让我理解为什么行业里都在建"长尾场景库"而不是平均地收集数据。
-
-二是**本次加权微调没有带来总体分数提升**。局部修复与新增失败并存，验证损失变化也有限；这不足以证明模仿学习已达理论上限，后续可考虑数据覆盖、目标函数、RL 后训练或世界模型等方向。
-
-## 仓库内容
-
-```
-DiffusionDrive/              # hustvl/DiffusionDrive 的 fork，含三处本机适配补丁
-                             #   （DD_STEP_NUM 步数可调、torch 2.8 调度器 API 修复、路径修正）
-run_training_weighted.py     # 加权采样微调脚本（WeightedRandomSampler + 代理特征）
-proxy_features.py            # 给 10.3 万训练场景自动打标（前车TTC/密度/转角/起步状态）
-analyze_failures.py          # 从逐场景成绩单挖失败签名
-failure_taxonomy.py          # 失败分类报告 + 代表场景挑选
-render_scene.py / render_gif.py / render_cameras.py   # 鸟瞰图 / GIF / 相机可视化
-measure_latency.py           # 推理延迟实测
-scan_steps.sh                # 步数-精度扫描
-run_eval.sh                  # 一键评测
-blog/                        # 完整记录（草稿）+ 所有图
-results/                     # 逐场景成绩单 CSV、失败分类报告、可视化产物
+```text
+相机图像 + 激光雷达
+        ↓
+多传感器特征编码与融合
+        ↓
+轨迹锚点 + 截断扩散规划
+        ↓
+未来 4 秒轨迹
+        ↓
+NAVSIM / PDM 评分
+        ↓
+逐场景失败分析 → 训练集代理特征 → 加权采样微调 → 全量回归评测
 ```
 
-## 一些过程图
+### 推理效率优化
 
-| 步数-延迟权衡 | 子项扣分分布 | 训练曲线（v1 的过拟合拐点在 epoch 4） |
-|---|---|---|
+将扩散迭代步数参数化，在固定权重和相同场景子集上扫描 1、2、3、5、10、20 步，联合考察 PDMS、碰撞约束、TTC、行驶进度和推理延迟。实验中单步设置取得更低前向延迟，子集 PDMS 未低于默认 2 步，为消费级硬件上的低延迟规划提供配置依据。
+
+### 长尾场景分析与可视化
+
+从总分拆解到具体评分子项，分别统计碰撞、驶出可行驶区域、跟车风险与进度损失，再通过场景 token 回溯原始观测和轨迹。结合鸟瞰图、相机图与动态 GIF，检查弯道、环岛、路口等代表场景中的规划行为，为采样策略和模型改进提供依据。
+
+### 加权采样与训练迭代
+
+从训练集日志与标注构建前车距离、TTC 代理量、交通参与者密度、前方行人、轨迹转角和静止起步等特征，使用 `WeightedRandomSampler` 提高特定场景的采样概率，权重上限为 5。
+
+通过 v1／v2 实验调整学习率、训练轮数和 checkpoint 保存策略，以全量回归评测同时检查局部修复与新增失败，避免仅以训练损失或少量可视化案例判断优化效果。
+
+### 工程实现
+
+- 适配 **Python 3.10、PyTorch 2.8、CUDA 12.8** 与 RTX 50 系 GPU，修复学习率调度器接口兼容问题。
+- 提供数据下载、评测缓存、模型评测、步数扫描、代理特征提取与加权微调入口。
+- 保留 Hydra 配置、TensorBoard 事件、逐场景评分和权重哈希，支持结果回溯与交叉检查。
+- 将运行路径参数化，支持在独立目录中配置数据、模型与实验输出。
+
+## 实验结果
+
+各组完整评测使用相同的 12,146 个 navtest 场景。PDMS 为逐场景分数均值乘 100；碰撞扣分按 `NC < 1` 统计。
+
+| 模型／配置 | PDMS ↑ | 碰撞扣分场景 ↓ | 修复基线场景 | 新增碰撞场景 |
+| --- | ---: | ---: | ---: | ---: |
+| DiffusionDrive 基线 | **88.07** | 224 | — | — |
+| 加权微调 v1，epoch09 | 87.52 | 234 | 15 | 25 |
+| 加权微调 v2，epoch00 | **88.01** | 223 | 8 | 7 |
+| 加权微调 v2，epoch02 | 87.90 | **218** | **16** | 10 |
+| 加权微调 v2，epoch03 | 87.96 | **218** | 13 | **7** |
+| 同管线人类轨迹参考 | 94.55 | 0 | — | — |
+
+v2 的改进主要体现在特定碰撞场景的修复，而非总体 PDMS 提升：epoch02 比基线低约 0.17 分，同时净减少 6 个碰撞扣分场景。不同 checkpoint 呈现出总分、修复数量与新增失败之间的权衡，完整对照见[逐场景结果汇总](results/archive_summary.json)。
+
+![微调对比](blog/figures/v1_v2_comparison.png)
+
+## 可视化分析
+
+| 推理步数与延迟 | 评分子项分布 | 训练与验证曲线 |
+| --- | --- | --- |
 | ![](blog/figures/steps_tradeoff.png) | ![](blog/figures/subscore_hist.png) | ![](blog/figures/training_curves.png) |
 
-失败场景鸟瞰对比（红=模型轨迹，绿=人类司机）：
+代表场景的鸟瞰轨迹对比：红色为模型预测，绿色为人类轨迹。
 
-![](blog/figures/bev_anim_01d061d9a66451ea.gif)
+![规划轨迹对比](blog/figures/bev_anim_01d061d9a66451ea.gif)
 
-## 复现指引
+## 快速开始
 
-模型权重（729MB）和数据集（navtest 219GB / navtrain 302GB）不在仓库里，按 `download_all.sh` / `download_navtrain_local.sh` 拉取（国内网络已做镜像适配），权重从 [hustvl/DiffusionDrive](https://huggingface.co/hustvl/DiffusionDrive) 下载。环境：python 3.10 + torch 2.8.0+cu128（RTX 50 系必须），`source env.sh` 后 `bash run_eval.sh eval`。
-
-### 2026-11-03 归档补全
-
-之前仓库缺少 README 提及的加权训练脚本及 v1/v2 原始评测，现已补齐：7 组完整评测、85,022 条场景结果、103,288 条训练代理特征、训练事件、Hydra 配置和训练日志。独有微调权重在 `research-archive-2026-11-03` Release，原始数据按上游条款重新下载，不上传。
+安装与数据准备见[复现指南](REPRODUCE.md)。运行环境、训练参数及完整实验记录均随项目提供；原始数据与基础模型按上游说明获取，微调权重可从本仓库的 [Releases](../../releases) 下载。
 
 ```bash
+# 无需 GPU 或原始数据，核对完整评测与结果文件
 python3 verify_archive.py
+
+# 准备好环境、模型与数据后，执行缓存与评测
+source env.sh
+bash run_eval.sh caching
+bash run_eval.sh eval
+
+# 推理步数扫描与加权微调
+NSCENES=1200 bash scan_steps.sh
+RECIPE=v2 bash train_weighted.sh
 ```
 
-[完整成绩与碰撞修复／新增统计](results/archive_summary.json) · [复现、权重与清理边界](REPRODUCE.md)。CSV 内的 `average` 行必须排除；碰撞扣分定义为 `NC < 1`，包括 `NC=0.5`。这两点避免了旧分析中的计数偏差。
+## 项目结构
 
-## 参考
+```text
+DiffusionDrive/              多传感器扩散规划模型与 NAVSIM 评测源码
+proxy_features.py            训练集场景代理特征提取
+run_training_weighted.py     基于 WeightedRandomSampler 的微调入口
+train_weighted.sh            v1 / v2 训练配方
+run_eval.sh                  评测缓存与全量评测
+scan_steps.sh                扩散步数—精度扫描
+measure_latency.py           GPU 模型前向延迟测试
+analyze_failures.py          评分子项分析
+failure_taxonomy.py          失败分类与代表场景筛选
+render_*.py                  BEV、相机与 GIF 可视化
+results/                     逐场景评分、训练配置、特征与实验记录
+blog/                        实验分析与图表
+verify_archive.py            结果重算与文件一致性校验
+REPRODUCE.md                 环境、数据、权重与复现步骤
+```
 
-- DiffusionDrive: https://arxiv.org/abs/2411.15139 ｜ 代码: https://github.com/hustvl/DiffusionDrive
-- NAVSIM: https://github.com/autonomousvision/navsim
-- 上游代码与数据保留原始许可（见 DiffusionDrive/LICENSE）
+## 技术基础
 
-*独立复现研究，与原作者无关。*
+- [DiffusionDrive](https://github.com/hustvl/DiffusionDrive)：截断扩散轨迹规划，[论文](https://arxiv.org/abs/2411.15139)。
+- [NAVSIM](https://github.com/autonomousvision/navsim)：场景加载与规划评测。
+- 上游代码许可见 [DiffusionDrive/LICENSE](DiffusionDrive/LICENSE)，数据与权重遵循各自使用条款。
