@@ -26,7 +26,7 @@ rows=[]
 for d in sorted(glob.glob("exp/step_scan/steps_*/*"), key=os.path.getmtime):
     csvs=[f for f in glob.glob(d+"/*.csv") if "cache" not in f]
     for c in csvs:
-        df=pd.read_csv(c); df=df[df["valid"]]
+        df=pd.read_csv(c); df=df[df["valid"] & (df["token"] != "average")]
         steps=d.split("steps_")[1].split("/")[0]
         rows.append((int(steps), len(df), df["score"].mean(),
                      df["no_at_fault_collisions"].mean(), df["time_to_collision_within_bound"].mean(),

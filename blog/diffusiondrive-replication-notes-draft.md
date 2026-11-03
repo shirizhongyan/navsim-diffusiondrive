@@ -1,3 +1,5 @@
+> 2026-11-03 复核说明：本文保留当时的实验笔记。最终逐场景计数、v1/v2 权重对应关系和复现命令以 [REPRODUCE.md](../REPRODUCE.md) 与 [归档汇总](../results/archive_summary.json) 为准。旧文 225/458/636 误计了 CSV 的 average 行；准确值为 224/457/635。v2 epoch02 修复 16 个基线碰撞扣分场景，同时新增 10 个；不能只报修复数。
+
 # 单机复现 DiffusionDrive（NAVSIM 88.1 PDMS）全记录：环境踩坑、失败归因与步数-延迟权衡
 
 > 草稿 v0.6 — 2026-09-19（微调实验已补）。硬件：RTX 5070 Ti 16GB / Ryzen 9 9950X / 60GB RAM。

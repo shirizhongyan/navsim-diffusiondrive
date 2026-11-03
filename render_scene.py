@@ -6,9 +6,10 @@ matplotlib.use("Agg")
 import hydra
 from hydra.utils import instantiate
 
-ROOT = Path("~/e2e-driving")
+ROOT = Path(__file__).resolve().parent
 TOKEN = sys.argv[1] if len(sys.argv) > 1 else "01d061d9a66451ea"
 OUT = ROOT / "exp/failure_analysis"
+OUT.mkdir(parents=True, exist_ok=True)
 
 from navsim.common.dataloader import SceneLoader
 from navsim.common.dataclasses import SceneFilter, SensorConfig

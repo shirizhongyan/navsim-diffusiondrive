@@ -8,13 +8,13 @@ import matplotlib.pyplot as plt
 import hydra
 from hydra.utils import instantiate
 
-ROOT = Path("~/e2e-driving")
+ROOT = Path(__file__).resolve().parent
 CSV = ROOT / "exp/diffusiondrive_agent_eval/2026.09.14.19.36.40/2026.09.14.19.58.36.csv"
 OUT = ROOT / "exp/failure_analysis"
 OUT.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(CSV)
-df = df[df["valid"]].copy()
+df = df[df["valid"] & (df["token"] != "average")].copy()
 SUB = ["no_at_fault_collisions","drivable_area_compliance","time_to_collision_within_bound",
        "ego_progress","comfort","driving_direction_compliance"]
 

@@ -4,7 +4,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
-ROOT = Path("~/e2e-driving")
+ROOT = Path(__file__).resolve().parent
+(ROOT / "exp/step_scan").mkdir(parents=True, exist_ok=True)
 from navsim.common.dataloader import SceneLoader
 from navsim.common.dataclasses import SceneFilter, SensorConfig
 from navsim.agents.diffusiondrive.transfuser_agent import TransfuserAgent

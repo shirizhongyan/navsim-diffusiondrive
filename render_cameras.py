@@ -4,9 +4,10 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 
-ROOT = Path("~/e2e-driving")
+ROOT = Path(__file__).resolve().parent
 TOKEN = sys.argv[1]
 OUT = ROOT / "exp/failure_analysis"
+OUT.mkdir(parents=True, exist_ok=True)
 
 from navsim.common.dataloader import SceneLoader
 from navsim.common.dataclasses import SceneFilter, SensorConfig
