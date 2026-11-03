@@ -1,0 +1,11 @@
+[2026-09-18 08:00:28,413][__main__][INFO] - Path where all results are stored: /home/ps/e2e-driving/exp/finetune_v2_lr2e5/2026.09.18.08.00.28
+[2026-09-18 08:00:28,413][__main__][INFO] - Building Agent
+[2026-09-18 08:00:28,881][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)
+[2026-09-18 08:00:29,544][httpx][INFO] - HTTP Request: HEAD https://hf-mirror.com/timm/resnet34.a1_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+[2026-09-18 08:00:29,545][timm.models._hub][INFO] - [timm/resnet34.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2026-09-18 08:00:29,848][timm.models._builder][INFO] - Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+[2026-09-18 08:00:30,968][__main__][INFO] - Building Lightning Module
+[2026-09-18 08:00:34,847][__main__][INFO] - Weighted sampling: 32225/85109 samples boosted (37.9%), mean weight 1.46
+[2026-09-18 08:00:34,854][__main__][INFO] - Num training samples: 85109 | Num validation samples: 18179
+[2026-09-18 08:00:34,854][__main__][INFO] - Building Trainer
+[2026-09-18 08:00:34,865][__main__][INFO] - Starting Training

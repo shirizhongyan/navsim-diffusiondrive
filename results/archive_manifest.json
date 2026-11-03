@@ -1,0 +1,1644 @@
+{
+  "files": [
+    {
+      "path": "results/archive_summary.json",
+      "bytes": 2401,
+      "sha256": "42adb16da4c959f207e35b8f93e51820679a5226d43ca188351597aeaf7b3446"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/code/hydra/config.yaml",
+      "bytes": 288125,
+      "sha256": "00f154d4b405cd35a3a0984c83fb15c1305da4c40666e6fbb469e688f0611ad6"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/code/hydra/hydra.yaml",
+      "bytes": 4327,
+      "sha256": "87cffe37cdd522db115cb77a808b98ab0a93fdadd33ddde5ed25dc2df2fa10ad"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/code/hydra/overrides.yaml",
+      "bytes": 277,
+      "sha256": "f72bdaaa04b34ab7b04a406086db360f8cc595345aa573339c841f7c04718691"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/log.txt",
+      "bytes": 1356,
+      "sha256": "495147036a221d25f5ecb5be0d29e59e09af626775a9e0de91effd4ef31f76db"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4702f33ab03011f18c3ab5c7a1d834f7__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "9bd955e8b552526572ef95846fadcaf1a4630dfeceaff61e3d50a4e489969a32"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4754d7b8b03011f1bcc9356aa5812066__run_pdm_score.log",
+      "bytes": 613,
+      "sha256": "4c3fbd0ba79232cfa6c0b444ceda140fc3d038b83b86a86639e20a04aa749eb4"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4755bcbeb03011f1864525564dd78536__run_pdm_score.log",
+      "bytes": 613,
+      "sha256": "57e823d92da764362e81d892ae4d4195a9643653c4770eacc43a6083e8168f36"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4757bdf2b03011f1acef854f8d178e82__run_pdm_score.log",
+      "bytes": 613,
+      "sha256": "a91964cd98ee6adb0e3f0e5a63b40d8cc8dbfe9be182269ceb142d284cd3b7b0"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4787ad0ab03011f19abba7ed0e47b6ab__run_pdm_score.log",
+      "bytes": 613,
+      "sha256": "cf7e6c3b5bfa3a9118cc556d57b20ab1dd163bc11ce75038b1c1deddbbc662bc"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/478e0ddab03011f1aa314335b60f7e1e__run_pdm_score.log",
+      "bytes": 613,
+      "sha256": "c508e6ff78cf3352daa6a56e5e6cb90272f9e45a1834a2c0ddd2ecfae850650c"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/479b9fa4b03011f1860711a053d7c0ee__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "c588865c1f412a078458e530e1a7604c38ab08c9c6ade669acd0dee8002e8453"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/479f31d2b03011f1906237d522e291bf__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "a212378248808ca5cd5d52590f2639d674515fb2b1a5fb5b1b328a223916d7ab"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47a1e2e2b03011f199d7c7ce9dac7c88__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "14bcd5fb6d73b52eba9c930f70386b224ffef2bb7a4f6cfc90feccf7f5fadf5e"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47bc1b76b03011f1a789990dd2f437cf__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "040736253622f6eccebf334b2514bbf204f5e34097ee1aa1a0b5a98f765669db"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47c6e11eb03011f1951f7f07acae915a__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "f32b2b48ed995d5b2c68acf26cc0ba61a7ae52c7f015f15f4c49251028cb05d0"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47cbe51ab03011f1b355a37318fe1862__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "d89f256c5cb7478d8d21cdc8b10cf88f877ac15d95c6d4dc236aebdd80d2be7c"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47d339c8b03011f199f1b5dbf7d8ba8f__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "d8966bb03cf7806b319d94e5cf0dc53841357c0bf8119e65122b1cc0b2d51941"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47dc3f82b03011f1a121c310089dde38__run_pdm_score.log",
+      "bytes": 613,
+      "sha256": "dbf54fde928d070cc74410976ca9dc7015d1cd331f39e647edfddc5f0be4ed4a"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/47f1ac3cb03011f19d84eded0a5560a9__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "bfa677e09b003231d83c8f27b10c030d79952bdecac81f7d2e9d8bf6a205aca9"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/48031292b03011f19207ff01785b5e43__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "24a9d41c7e4082bbb56e5438d4618b0c0c5d27652f31dede53f5bf66d3596545"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/481b172ab03011f1b5d9b1516ffb8b9f__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "367cb9d6fed6206b25ed78addc4c5b1a4c3a6962dda66de149380bba89f7e35d"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/48241000b03011f1a798bd40842c116b__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "f085d1e380294c1698e585f7c663f47cdfaf6a594e80e79f69c9a5dc5e6c0b11"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4848155eb03011f1ba1e390c68de708e__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "fc4a9f65c5a8686350ec2115742da9bf9f35febb1325aacdd6c92db6bb70a9b1"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/484d5050b03011f185c6f97f6b52922c__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "70212157a329a83c20f4432deb222dae80f19b9a9f18a348b6869eb7b2a1ab34"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4855e792b03011f1995c3f8a4673f6ec__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "f2a85a66b897755a40867bc2b4c9bc3e8c38671b5c221a3a447b2460e2535f6b"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4867156cb03011f1b0dfdb848e9e829c__run_pdm_score.log",
+      "bytes": 150,
+      "sha256": "58ce7eb20555cbac9649dd5271c547b6ffa43a3ac48df18e090dc4cab4df4fa9"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/488b2f24b03011f197889f1aec35288d__run_pdm_score.log",
+      "bytes": 150,
+      "sha256": "d883d541b068dd1ac3a08fa82cb640447a3079ef0646bff8789deec1321b008d"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/489e53bab03011f19659759c39292e56__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "d7a9554270119bef625a9361dda02ce1989958544dd4d6af09f5cdef70878f27"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/48bc1378b03011f190a29fa8923557d1__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "91de420661feb0b79dbe86f34de99ac68cf91c857002a94cfe4974bcb51cc2af"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4973a63cb03011f1aacb8d088185f2d1__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "8385a6ebd3eb4925a46c591c3c22dcff46742eaaab9ce0933d1c26841d6af687"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/497502fcb03011f1973cbb5a05a80414__run_pdm_score.log",
+      "bytes": 150,
+      "sha256": "6f89542eae0e258cca8b7f56ef5e20caa03a6c7e0d78897d88f23c32f986be66"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/4977e3f0b03011f18a91776fff0410ab__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "5bccdf35bbef928b45feb2eeb9e761695f06ee6c8354ba6c72a3f61260344daa"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/49794628b03011f18fb029f7c66a592d__run_pdm_score.log",
+      "bytes": 150,
+      "sha256": "b9c71211cc3b901d4ee8ea52a6a3c6a9a20d27185af77b08f63244ad4144a3f5"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/49aa26bcb03011f1a27175647915e175__run_pdm_score.log",
+      "bytes": 524,
+      "sha256": "44d13b8abe9454d62269f5765ae65a5047ea09c3474e17ddf049d58137646709"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/49c0de48b03011f1bd15d50411c45b13__run_pdm_score.log",
+      "bytes": 150,
+      "sha256": "de333e119dacc86a5e2f100a60ad51f795398b3367176260d2a98a3b775367db"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/logs/49ec501eb03011f19763cd95edbc51c2__run_pdm_score.log",
+      "bytes": 150,
+      "sha256": "bd633485876ae8a6b2a508e4555793e07a3ec7e9b77fbebecd36b8bd2eafb94e"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.34.25/run_pdm_score.log",
+      "bytes": 719,
+      "sha256": "e0c54d68779998f256f4ced31c9422c6e77d16e94a053bcbae48e52145402fa6"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/2026.09.14.19.58.36.csv",
+      "bytes": 899986,
+      "sha256": "4bf08c5a6d466e3bc9f698b6044be5bf7c0033992299009350f6fdf0f10b530d"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/code/hydra/config.yaml",
+      "bytes": 288122,
+      "sha256": "83942b52a23a6fbf382aa69acdd60568dbf0acadfa428bc0372e6bfba7e31cc7"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/code/hydra/hydra.yaml",
+      "bytes": 4385,
+      "sha256": "3c3fbf6da18d96dfae7aca596baf0de1edaaccb93426284cc1751343106fe6e4"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/code/hydra/overrides.yaml",
+      "bytes": 305,
+      "sha256": "db4e99cf49ee6cb600f9b68a86e5a6b2698e095417065a965e9ce31a29034b00"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/log.txt",
+      "bytes": 1912,
+      "sha256": "9b15f4aec9716b89b7ff1b5a8795f65a797a20a6eb4fa1706a319a39aa8b344e"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/logs/9584cc0eb03011f186e7f1677ade89b7__run_pdm_score.log",
+      "bytes": 121061,
+      "sha256": "8e4f7516667a9daca93f554dd4e46868f2a3ea50048cc25a0776ef27cdd3a42a"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/logs/958e5cf6b03011f1b0b2a3620d129dcc__run_pdm_score.log",
+      "bytes": 182720,
+      "sha256": "ab954401dda78511090df445ee86c1719ef9ffee79564d8e7e2724b5e7df8e51"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/logs/95928628b03011f19ee3b36d2da37a6d__run_pdm_score.log",
+      "bytes": 208853,
+      "sha256": "03bc7ebbcfe4001e93597ca832d613553ced5cb789baa72a56e97a33b4f37f28"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/logs/959b1338b03011f1b5a5cd163bb346b0__run_pdm_score.log",
+      "bytes": 162911,
+      "sha256": "ee5963ea7ff91d586a5c3173a4cc892e5f12ee3c6f1862a633944537c10ebb65"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/logs/95a401e6b03011f19f43f3990a4fe42c__run_pdm_score.log",
+      "bytes": 196856,
+      "sha256": "02b37d537f7b5d3cab6c036164d2785c33c5ff0ded4839630d11dc1f4ed33bf2"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/logs/95ac48c4b03011f1a74ed5f9e2ffa186__run_pdm_score.log",
+      "bytes": 253679,
+      "sha256": "e7b0e04376a4ee0107d0e8b4c65f9ecdaf7e86e83b62db65b5f4eee3afe4877d"
+    },
+    {
+      "path": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/run_pdm_score.log",
+      "bytes": 1155,
+      "sha256": "536a2e7f2e0468230741b9a3de98bc8b180d0a792855e03ba3788c9960b573aa"
+    },
+    {
+      "path": "results/failure_analysis/bev_01d061d9a66451ea.png",
+      "bytes": 139760,
+      "sha256": "ee73de5deaa6ffad8e460035a8f3433ec1579d3248977bac425c348cded435af"
+    },
+    {
+      "path": "results/failure_analysis/bev_19d3dfdf0d2d5b6f.png",
+      "bytes": 108947,
+      "sha256": "0b699f6cab7591c560b6bb0bc1ee049f6eb6bf708456180866c43850c0fdbb35"
+    },
+    {
+      "path": "results/failure_analysis/bev_9d5e6089bd0d5caf.png",
+      "bytes": 67552,
+      "sha256": "e0fc2ceeb7909ae6d4705ed5d0d781d754e4e2c08742fec8e9da36331c7699ad"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_01d061d9a66451ea.gif",
+      "bytes": 375609,
+      "sha256": "1dbe364784163bec1c6c1d5444d07eb9641586360e48d5ccd50f16af91aee06c"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_19d3dfdf0d2d5b6f.gif",
+      "bytes": 313603,
+      "sha256": "bd2930791252156808b46f3758d0ed7848a1f82b020b1fb6d4554f1498997b36"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_1fe5f6af95e15489.gif",
+      "bytes": 220801,
+      "sha256": "212e0b6ae1206ea46dd620d24a83b6533e42f1133400c7daf44a2ac3b5d2c185"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_2aade0b3987d5366.gif",
+      "bytes": 266099,
+      "sha256": "ad44222340a130091a481332bb31e31b265c5a02a478b2bb86573cf17715dd27"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_35f226ec4cac52fc.gif",
+      "bytes": 352733,
+      "sha256": "8bea4498779f572c42b5e7075a560acf689b171072044ad90d368ac5ba12ae91"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_4a919f7ea2f65200.gif",
+      "bytes": 217722,
+      "sha256": "2f96b8b8c694b86092e3fbe29127bd426af031c82b85ce34e19c2c5caf9558f1"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_624b5f7f1f4a503e.gif",
+      "bytes": 156561,
+      "sha256": "2df40842ae1a5b47d18a6c6287b67589deae0350c7c51ae4f804339536da0ff4"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_63b91b18f46a5a96.gif",
+      "bytes": 378750,
+      "sha256": "b928690e7b560c2d8685e9d49576c8f40a5cda4ad6e99c5ef76261dd1b26fbef"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_da928b52410d5da6.gif",
+      "bytes": 170744,
+      "sha256": "05a1d162f54f07984cde978fc3d9a67f034d16f0bf03ae1e29281e2f13a029eb"
+    },
+    {
+      "path": "results/failure_analysis/bev_anim_fb643a2514195bfa.gif",
+      "bytes": 193234,
+      "sha256": "23c347a64c72ec017589714da25399de67a4cf8beccd64cfec3e9a8dfd92f6f0"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_01d061d9a66451ea.gif",
+      "bytes": 4205113,
+      "sha256": "9a7768b5831ca7f60afb4727005dd3165c019b8296d269958b6c72189bb89136"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_19d3dfdf0d2d5b6f.gif",
+      "bytes": 4001904,
+      "sha256": "b46889e5ea666b2ef3ae9e898161225c6bfd51942ced978e805dac6e9cb1eda9"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_1fe5f6af95e15489.gif",
+      "bytes": 3550780,
+      "sha256": "c60bf8ed3c7f58d0b639b743ebfc26d0eb76ebf63bd700df2ef488a4295b05c0"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_2aade0b3987d5366.gif",
+      "bytes": 4108143,
+      "sha256": "9251d1b4e01d0d90f28a1c937850823dfe9261c5d5f1fe8dbf143ef983a7d8b7"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_35f226ec4cac52fc.gif",
+      "bytes": 4227629,
+      "sha256": "5c51f3289d22f60718e49e24e1fe9ce54e0753bb6fab320a90e52d52fc8f7b4c"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_4a919f7ea2f65200.gif",
+      "bytes": 3931400,
+      "sha256": "2df4f550c3ca32776822430acdade3003c32b168d9ae9103338f2186a618c368"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_624b5f7f1f4a503e.gif",
+      "bytes": 3397892,
+      "sha256": "22dfd863bc4976a2b3356e304f9f3f1f9e049fe5e8fd0a40196a234b870d2c28"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_63b91b18f46a5a96.gif",
+      "bytes": 4200148,
+      "sha256": "38f298cc0f8ac93687e7a35c87897c52e6e9f240a228f887f4f57e902ec6cd9d"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_da928b52410d5da6.gif",
+      "bytes": 4091388,
+      "sha256": "0649fc84162cc218b051fea21da5a62e6a3fa497b6a6ae6a11fa6de382a5b3da"
+    },
+    {
+      "path": "results/failure_analysis/cam_anim_fb643a2514195bfa.gif",
+      "bytes": 4117993,
+      "sha256": "a04920f25278a9dd78286db833d634f1c457027d5382647624ce60d8a4bdfc32"
+    },
+    {
+      "path": "results/failure_analysis/cameras_19d3dfdf0d2d5b6f.png",
+      "bytes": 1964348,
+      "sha256": "8d326354c4d80295814599bf5998fb701f2287eab350de556663bdd1c3239d95"
+    },
+    {
+      "path": "results/failure_analysis/subscore_hist.png",
+      "bytes": 76757,
+      "sha256": "cc833cf3a2819c92ecdafd591e6dceb4910203468008925855476f1f5fe069c8"
+    },
+    {
+      "path": "results/failure_analysis/taxonomy.md",
+      "bytes": 2352,
+      "sha256": "07481f0fafd60576df8d9dd3099d9a0a48814c5c17dc1fe777446e9e4f3521fe"
+    },
+    {
+      "path": "results/failure_analysis/taxonomy_reps.json",
+      "bytes": 301,
+      "sha256": "0acea58aef3463e9ae08f1f98526f59d22cbf63f46d0d75abcab4136380b9cab"
+    },
+    {
+      "path": "results/failure_analysis/worst10.csv",
+      "bytes": 591,
+      "sha256": "3925986c754c83cc54ef32f01a4045583bcb923dd610ea15fc3ac015a33d53f5"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/code/hydra/config.yaml",
+      "bytes": 3084266,
+      "sha256": "f9da05abd62f9b7604596e4a209a92ac066a4a1cd0abc1f11e5d423f8fc64dc5"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/code/hydra/hydra.yaml",
+      "bytes": 4465,
+      "sha256": "102b95a8984bb26e5cf0cedce4db7cfa67b9c463ca23eba068761b38a638c6a3"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/code/hydra/overrides.yaml",
+      "bytes": 414,
+      "sha256": "79f8f6cc3db4d6b37dc405925ed7b711f85466478e90dede94737abc3e3d7523"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/lightning_logs/version_0/events.out.tfevents.1789711124.node03.1076657.0",
+      "bytes": 1206358,
+      "sha256": "4c47b38d93d2d413dfb1c67a6075b4374f2ec4a6be82ec34a36954fdd118c3a7"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/lightning_logs/version_0/hparams.yaml",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/run_training_weighted.log",
+      "bytes": 1272,
+      "sha256": "b909e1e2f26116d8014f3861a89c251e2fb8068f01c9cec893094506e42c30d2"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/2026.09.18.05.57.49/train_ddp_process_1.log",
+      "bytes": 1272,
+      "sha256": "bcc05797ee3f942111198499b32fd3fc039f4da49d798783286ebb79745332fc"
+    },
+    {
+      "path": "results/finetune_hardmining_v1/training_curves.png",
+      "bytes": 193805,
+      "sha256": "b35f8b94c52b55d4a8aa13d28dc6aa7e5c0502425b4d8b4b87e4d43d13b83887"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/2026.09.18.07.36.21.csv",
+      "bytes": 899475,
+      "sha256": "18a4aee26ad96387fb6bef61755066e5fb7c86d70225879a34a2870b9a1ae083"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/code/hydra/config.yaml",
+      "bytes": 288039,
+      "sha256": "cea0a7a98df8b4a51415319b015e1e57f0ad28d1f041a8cbcddbb9dab7e7a685"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/code/hydra/hydra.yaml",
+      "bytes": 4065,
+      "sha256": "cc72311fffebbdb639ca06ff271aba22497c05cbc3ecaedab3530ec39c4a7fd6"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/code/hydra/overrides.yaml",
+      "bytes": 222,
+      "sha256": "aae88b45b72df318c16d0e785fdee44e38f487cdddc3bad8c29941e985733704"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/log.txt",
+      "bytes": 1500,
+      "sha256": "3bffb3a9006f94590430c8f66d3d1a09b4acf965b3f032c5cf53c5cbe216a6e3"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c791cdd4b33011f1ad6bedd5c19f1b2e__run_pdm_score.log",
+      "bytes": 102089,
+      "sha256": "2bffa60ed99062d86e11652de2a5105dcc50ae04b54e126845d57041cbc3ac9a"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7a55d40b33011f182cddb705fb926af__run_pdm_score.log",
+      "bytes": 95765,
+      "sha256": "b349283acc120321d9a92f3a52b83a743609524de2f6a83ed2f686191b1e8dcb"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7b665aeb33011f19941f9e09f770f8d__run_pdm_score.log",
+      "bytes": 74035,
+      "sha256": "338224409eacf3a18f5611d1601624a16926afe18a99cef6263f81f8dc15010e"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7b93202b33011f1b7639b0073798386__run_pdm_score.log",
+      "bytes": 123479,
+      "sha256": "d8ce930db3736ccaf36a827df580d9f41288c2d4aa2b90d94020da9f749b3693"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7c1c890b33011f18b64edf7abc47ed3__run_pdm_score.log",
+      "bytes": 121805,
+      "sha256": "85d2fb09b492d348d6e0f15bfa41b866d28a520075e8eef17e58c0d11fbe321d"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7da410eb33011f196eb4522b9abae6b__run_pdm_score.log",
+      "bytes": 55926,
+      "sha256": "a2a9af7e37ecac609ee07635ed5c5e7ee1ae4969808eca5876d7b91eee2f7d64"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7e749bcb33011f1afe4cfd687ac6f5f__run_pdm_score.log",
+      "bytes": 62387,
+      "sha256": "4032abfc4384f53463db4b687c5f7a834c34ef9c8d119b3089f692bc95efd3e3"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7f0f142b33011f19d06e5c452cef2d3__run_pdm_score.log",
+      "bytes": 84864,
+      "sha256": "466329a3da5eba353f4d5c06872df9c14b3b82fc3ec3f0f76dbf838cb80204b0"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7f975f6b33011f1a1afcfa42821bdb5__run_pdm_score.log",
+      "bytes": 75582,
+      "sha256": "4dfc277ead3ffd7b8152ef1ff4222f6ae30702c598039a8e5e8eeec3b6c6ca19"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c7fd6044b33011f18f6e4ffd922c3922__run_pdm_score.log",
+      "bytes": 83863,
+      "sha256": "8b79e9b363a9e47735cad756d1b40676aaf21c2d95040a167e7282db9fe27c31"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c8021c24b33011f18357afa1f9d489fd__run_pdm_score.log",
+      "bytes": 129245,
+      "sha256": "a90b6454f629fbe7747626a21b7f25e1dff75df2b630d4a7b24cebf9cf63815c"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/logs/c8111f3ab33011f1a7a967982c21e760__run_pdm_score.log",
+      "bytes": 109994,
+      "sha256": "8a3223c9ca0d5c8b0a170517cbe7f0048e00e22902a37355271a12497adb3dce"
+    },
+    {
+      "path": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/run_pdm_score.log",
+      "bytes": 1107,
+      "sha256": "9953e257e097d99f1b194432c98d6a2ff27bbf6f3f86e0443c01e2d76a78f7fa"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.52.43/code/hydra/config.yaml",
+      "bytes": 3084254,
+      "sha256": "157ddb051aeb2672c428d888cdb7aeea949cb59adc261ba2e03e543d297ab8b2"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.52.43/code/hydra/hydra.yaml",
+      "bytes": 4597,
+      "sha256": "34f0dcf4cec9136f4fc4fee48de649077e8535c907536a28e314f1a7cd9d51cd"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.52.43/code/hydra/overrides.yaml",
+      "bytes": 482,
+      "sha256": "c6d4555371c0ceda7f628b9f390e80af86227092a9f5fec0d03f1364701c24a8"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.52.43/run_training_weighted.log",
+      "bytes": 1321,
+      "sha256": "3796655c6739becef3378ab8fc9fc0b7e219c1b2f8307df782875473d0c56fb7"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.53.58/code/hydra/config.yaml",
+      "bytes": 3084254,
+      "sha256": "157ddb051aeb2672c428d888cdb7aeea949cb59adc261ba2e03e543d297ab8b2"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.53.58/code/hydra/hydra.yaml",
+      "bytes": 4597,
+      "sha256": "40aac1c579e1054022571d023647c6ef02b80c7eebe136e821dc4d09d38d8c47"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.53.58/code/hydra/overrides.yaml",
+      "bytes": 482,
+      "sha256": "c6d4555371c0ceda7f628b9f390e80af86227092a9f5fec0d03f1364701c24a8"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.53.58/lightning_logs/version_0/events.out.tfevents.1789710893.node03.1074868.0",
+      "bytes": 88,
+      "sha256": "f7d443e3b18d98c0119a6fd6c4df8de09c54201413caa0ec7158b68df7cb2412"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.53.58/run_training_weighted.log",
+      "bytes": 1264,
+      "sha256": "814f755678cc91ffe33e2328c45117059ce31cbe98191fed16d2272d3f7947af"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.53.58/train_ddp_process_1.log",
+      "bytes": 1264,
+      "sha256": "59b4ef9ba06919f50c8914725f3bf8c96e98dd97f8af852df3dab4b5116edb66"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/code/hydra/config.yaml",
+      "bytes": 3084254,
+      "sha256": "157ddb051aeb2672c428d888cdb7aeea949cb59adc261ba2e03e543d297ab8b2"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/code/hydra/hydra.yaml",
+      "bytes": 4597,
+      "sha256": "6f5d42acecc700f70025dfe3a1aa79563d78570b5e1157be648a1868c3f1ea88"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/code/hydra/overrides.yaml",
+      "bytes": 482,
+      "sha256": "c6d4555371c0ceda7f628b9f390e80af86227092a9f5fec0d03f1364701c24a8"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/lightning_logs/version_0/events.out.tfevents.1789711006.node03.1075506.0",
+      "bytes": 1768,
+      "sha256": "44c00658de0b85feac87951e771824063c6309f4a20edfb1ab49d1351935d493"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/lightning_logs/version_0/hparams.yaml",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/run_training_weighted.log",
+      "bytes": 1264,
+      "sha256": "ae823b77878bc0b4fcad484a30e1c7c53a2e0e7e74b24f1146e1560af9822932"
+    },
+    {
+      "path": "results/finetune_smoke/2026.09.18.05.55.51/train_ddp_process_1.log",
+      "bytes": 1264,
+      "sha256": "df65bc9b6567298e2be1d6a50762adaa20c7e2f4dc5e835e76f78b5a3dd2c29a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/2026.09.18.09.16.12.csv",
+      "bytes": 900737,
+      "sha256": "dfb909dc14c2cec910bb887aacee7f7b5f6005dc6eb35a15ba28add115cd6c7b"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/code/hydra/config.yaml",
+      "bytes": 288035,
+      "sha256": "a5b74338b23bbfccf7e9d4a838f1c54124133982f5992081572de2c542562f67"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/code/hydra/hydra.yaml",
+      "bytes": 4054,
+      "sha256": "3ddadbf0ad3c3648ed3a01befeadec1ae356de929ab7547c251055acb678faf7"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/code/hydra/overrides.yaml",
+      "bytes": 218,
+      "sha256": "f09a1f5478e58e6275f45047b0201bf2a068c1b9719068fd1f4306e6b1909541"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/log.txt",
+      "bytes": 1497,
+      "sha256": "2a5cce921273ae8a48d464028bdac4fc3f064a40360e489c088236fde4b88a80"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b875885ab33e11f1a98fa388c159e94c__run_pdm_score.log",
+      "bytes": 102089,
+      "sha256": "b8621352aefa2a1396c96f838609f21e41bbffae973ab3382752f071a5ba5f25"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b88004a6b33e11f1b2bec9b88f3ce557__run_pdm_score.log",
+      "bytes": 123479,
+      "sha256": "5a46253cf4bf28b8b3d773f5bb66485dd4c68c9a1dbe35fd954f6a4fc06875ae"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b888814eb33e11f1bcce113f51ea0dc9__run_pdm_score.log",
+      "bytes": 95765,
+      "sha256": "13f40a5a6bdd90278d1c662310c944c4e9cdcb69a9ad98309ed3fde10b9a02e9"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8970886b33e11f1b7f4dd52e7c89f85__run_pdm_score.log",
+      "bytes": 121805,
+      "sha256": "644a57cc4892f7b184a93c8fc513c3e68e5828ec71719f9fabb22294a8fa9cee"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b89d80bcb33e11f1a54395bd0428c4c6__run_pdm_score.log",
+      "bytes": 74035,
+      "sha256": "7d43790cb4f988e1dc0e828a78b60de48904827531bdc65d6625f3828f133ca5"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8bede06b33e11f1a18f8dfa037fb5a6__run_pdm_score.log",
+      "bytes": 62387,
+      "sha256": "c9c0c95bccde2585eb76f70762da314ab5143eafd762add1b8c148a6cd49df49"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8c19a56b33e11f19519e943654106d9__run_pdm_score.log",
+      "bytes": 55926,
+      "sha256": "392a729fd14f33ce12276b6b566d83572a41c5799227def14997f65c89a30597"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8ca7194b33e11f1a47a1167720c6449__run_pdm_score.log",
+      "bytes": 84864,
+      "sha256": "59aa8f1d98b005eb5fbcecfe3aed8748c6aee8b8228573af725967afcd0d9851"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8d295b8b33e11f1ac091be39630aa49__run_pdm_score.log",
+      "bytes": 75582,
+      "sha256": "dc94a9c1621f680691fed64ed5e13e992643952033af64accd98afe40e05e4c0"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8d73780b33e11f1bbcb49f9702399d4__run_pdm_score.log",
+      "bytes": 83863,
+      "sha256": "48f2b7f05411ca671f56eaf67fe11008d9595a15d05c421877bdad14289c30b2"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8ed1320b33e11f1ba768dfe4c58cd62__run_pdm_score.log",
+      "bytes": 129245,
+      "sha256": "4feff0201f771ca044c9b18c991dad23d1161487d766681a6cf79d402a55341a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/logs/b8f53bccb33e11f1825ecf38f72bc977__run_pdm_score.log",
+      "bytes": 109994,
+      "sha256": "ce401f90f3e95e942350ed4a36398c36d04cc0d5f8bb8cba9e6e288db397f977"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/run_pdm_score.log",
+      "bytes": 1104,
+      "sha256": "1146e2ebb93e60f678956038665b2b47f2eebc29e4ff5bae25fcf0233c74b71e"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/2026.09.18.09.37.03.csv",
+      "bytes": 899321,
+      "sha256": "bfce313654f73466b0ffd3cdafe6d9372da890bd019a2f3cca76526e0184b7e6"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/code/hydra/config.yaml",
+      "bytes": 288035,
+      "sha256": "b334f406c27847d807e794eefb1c719a0f5781543394edc0a6b8a04fd588c2b9"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/code/hydra/hydra.yaml",
+      "bytes": 4054,
+      "sha256": "0e36f3c309b7b359a3b1cc3c6eee3bf2b2596a60b4f59792d264d68724ced70a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/code/hydra/overrides.yaml",
+      "bytes": 218,
+      "sha256": "14a43c7c7446895bb9767e2ffba3f39ad6e19915444a97e86b12cbbe4f1dc9b8"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/log.txt",
+      "bytes": 1497,
+      "sha256": "fe932ae601465d6d8243ca957910f669b7be04aac03e43dedff13ce3df02de85"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a849349cb34111f1b90bab8986df3957__run_pdm_score.log",
+      "bytes": 102089,
+      "sha256": "980f25e76a796ebe00bbaf1aff4899f265fcc6396d5aab22544695cd474d09f1"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a84e1e26b34111f1b5debbb491cffd5e__run_pdm_score.log",
+      "bytes": 123479,
+      "sha256": "9e843dacdb6c5fe8e2e95ca367f339ee0d64692552dfe8fa190cc80447b762de"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8669028b34111f1a7cfd55cd38f5e94__run_pdm_score.log",
+      "bytes": 95765,
+      "sha256": "8161d74736ddd4804f0ff1de4c9ab47bfdbb0ac128e1bbc127f1e93030423d54"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a884401eb34111f188c09bbbc287e986__run_pdm_score.log",
+      "bytes": 55926,
+      "sha256": "1702cf6daa1cdc7fac2b9249653ee19b8750ef153a8b3d4786d65f6960862739"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a886ddb0b34111f19144bd1375152dbf__run_pdm_score.log",
+      "bytes": 121805,
+      "sha256": "7d39236914c50910b55dd3dc77cbafb700b7b99f83ce262f5c09c031f675ea19"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a88bb498b34111f1817da3cde18ad7e7__run_pdm_score.log",
+      "bytes": 74035,
+      "sha256": "817f61e494d74da7af9fe9714af597c3d6ceac596957c32e10f73054ef415ffe"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8956808b34111f191a1e3dd48e1b742__run_pdm_score.log",
+      "bytes": 62387,
+      "sha256": "c4faf6c7ab647636cdaa95263dfbc9b1e72fb71ab57ef346657510c12d927d86"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8a8a58ab34111f1ac5573ddcf99dc27__run_pdm_score.log",
+      "bytes": 75582,
+      "sha256": "b4cd218e0513d91940fb61fd658a7523a18b653fecfcdb0d96a9a81e4f2af14d"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8aa8bb6b34111f1bd2933a6cefec831__run_pdm_score.log",
+      "bytes": 84864,
+      "sha256": "4bacd5a9704b239c483a74a27e900ee1bff041d7f2bd4c392980ba8a03cc2504"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8ae63dab34111f182151f2c8ee04085__run_pdm_score.log",
+      "bytes": 129245,
+      "sha256": "892f8d86f9c9cf2b8c2563d53012162c5a8cb86413e4ce820cde1f7d5966c7fc"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8b87aaab34111f1899f777b1b0d04d9__run_pdm_score.log",
+      "bytes": 83863,
+      "sha256": "3fc55e3280304c833bf0fe008c0051cb4d23d3410020f2a338cf82c02e818609"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/logs/a8c5126ab34111f1b876f13563b1cdca__run_pdm_score.log",
+      "bytes": 109994,
+      "sha256": "841d2f065369dca7e3284c366886a0194c80e38d6a4b042cf4bf66a138d57479"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/run_pdm_score.log",
+      "bytes": 1104,
+      "sha256": "340c2c7db5bc69fa63680d8b21caf7f3ee3a9660a268c53dd0884a9c08089e1c"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/2026.09.18.09.58.00.csv",
+      "bytes": 900321,
+      "sha256": "77fc767aacd17dc8877fecc475d248e41552a3fd32d119c0c544467b215c5728"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/code/hydra/config.yaml",
+      "bytes": 288035,
+      "sha256": "c2531df2a227d26f6f618f839f3bc18658dfdea580a5bf6abe257cd71745ce44"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/code/hydra/hydra.yaml",
+      "bytes": 4054,
+      "sha256": "bdb191c86f5a1de22a48f0ae359dd849bb0da8504b4cfe3d23ea5a0e02cc922b"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/code/hydra/overrides.yaml",
+      "bytes": 218,
+      "sha256": "a4567103b64eaf38e3f756260a2c7146a9a8612adc405226c7663fc7b75a6687"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/log.txt",
+      "bytes": 1497,
+      "sha256": "4b4961d15e2b3a96927dbf864cf374a3edb4b28c107cc15a2b146867a62b779a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/91f09a20b34411f1aeb16d1dcd43b2c5__run_pdm_score.log",
+      "bytes": 102089,
+      "sha256": "7da3134dea10b124ce334c329646c9eacbd4d9760afa455b7f6dce3624cb5469"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/91fc5252b34411f1b389cb986cc405cf__run_pdm_score.log",
+      "bytes": 95765,
+      "sha256": "0954d35eeb717f671180f37734794ad7519d3ee8b5191f76f1ebfffad4f83177"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/920e6b22b34411f1934321ac0c7cbac3__run_pdm_score.log",
+      "bytes": 74035,
+      "sha256": "1f2d2e1863685057afc10d26d4aadabd2fc23195ac5d9b89cc106fdd42a917e9"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/921516c0b34411f1900f23aec7b2870b__run_pdm_score.log",
+      "bytes": 123479,
+      "sha256": "85225d9093e41316ea01a7c06ae7fd4aaaa7361a1d61daf9ed6de12515b8f7ea"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/9218d454b34411f19fbfe9e50e6bf64f__run_pdm_score.log",
+      "bytes": 55926,
+      "sha256": "cda72f1b42054e8e3fbfdbfccb746ca158df02cf2d98a7f60c3bc31f216d206a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/921c2384b34411f1815f55c4fceb1826__run_pdm_score.log",
+      "bytes": 121805,
+      "sha256": "e557e5e5659dcc6d1f27504eb18383e53d0771920cf51c962744d046ff133a66"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/9241c7c4b34411f1aff2438b99e63c22__run_pdm_score.log",
+      "bytes": 62387,
+      "sha256": "1d0849c181a7e6534b65f732248f619d7f91b6bcefa6d1a228a8b402d0e2e9c6"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/9243a864b34411f19d882f97b9a04e67__run_pdm_score.log",
+      "bytes": 84864,
+      "sha256": "bb7c838eb9698c28f1b6f3ec836a3e28d1e34f29a705a8f39533e38018ed1c25"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/924d6d7cb34411f18d3e67b84227cdba__run_pdm_score.log",
+      "bytes": 129245,
+      "sha256": "343544c48c503caf212185a44234e66693e6de9ddb640b9ee9f4450a16a556a6"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/92504542b34411f19b6a15c043cd216e__run_pdm_score.log",
+      "bytes": 75582,
+      "sha256": "add10dccb4c28a3f8009942b336e9ea0ab09f694437058cbbe6fadfb7bbcb481"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/92613898b34411f18dbb136607b10ac5__run_pdm_score.log",
+      "bytes": 83863,
+      "sha256": "1a0ece2bd8b97d96ddec5535170ac632f55c86ead646b04cce56ccc18cc19437"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/logs/926965feb34411f184ab09d5cb119a7e__run_pdm_score.log",
+      "bytes": 109994,
+      "sha256": "e65ef772bb8e88d585f69718253e7e5b2b4536a942ecbb762ef40d4e0ccb8fa3"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/run_pdm_score.log",
+      "bytes": 1104,
+      "sha256": "35eef440ceee28c3ff6d4fc37b3b8ce54b08b4a2454770129f97d00bc8c339d6"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/2026.09.18.10.18.56.csv",
+      "bytes": 899821,
+      "sha256": "59d3ad8e63eb9f1166e86a39e113a744eec66bd08ee4ca57f3f2e938b5381fb6"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/code/hydra/config.yaml",
+      "bytes": 288035,
+      "sha256": "730380b42f054eccada6f06519088dc0451fba31814a60f94856e5f964e5d29f"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/code/hydra/hydra.yaml",
+      "bytes": 4054,
+      "sha256": "7787f993c726fe4d5835db8e55f5879026909b296eb28771a7fd59bc9c0cdf50"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/code/hydra/overrides.yaml",
+      "bytes": 218,
+      "sha256": "7844df96f00523f77051c380ec3611b780140b7450f84f8248b192bdb5a33e45"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/log.txt",
+      "bytes": 1497,
+      "sha256": "2f56e9fa96c56a283451e8f4e25bf4703577ee60f80d1ae253af6701d6de8146"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e5f8cd4b34711f1b20f8ff01b7efee3__run_pdm_score.log",
+      "bytes": 102089,
+      "sha256": "3e7d239ac1beac263bd9e0395c9670319169e9065b09947a9005611873ecc664"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e6fbe74b34711f196b2b1e9311a201d__run_pdm_score.log",
+      "bytes": 95765,
+      "sha256": "cc05342b1b40727604dbb5ae046e39c4de259d9f4635df6868749d82b3757883"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e8406ccb34711f1be9e2bd3d30d2db3__run_pdm_score.log",
+      "bytes": 123479,
+      "sha256": "8197d870c5f0f26d4afe5d97c106d94839c3f521ff37b195e8dffbdff5bfc59a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e8b54eab34711f18671ab9ac34aeb5f__run_pdm_score.log",
+      "bytes": 55926,
+      "sha256": "c62c2dd7f27cae4d195cf2224c04ba2990a48ec8e653dba4315a415d27faa41e"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e8e2c7eb34711f18b8e77776fe4f010__run_pdm_score.log",
+      "bytes": 121805,
+      "sha256": "875d07403d55ea47b765b3031041556fc7ddd141181fff09663df312b05bd09a"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e940e3cb34711f19dfa2bcc2ebb2a48__run_pdm_score.log",
+      "bytes": 62387,
+      "sha256": "1477d91982954f6fe11200dd7e048d13761f037201a1b1183356802b5088a6ba"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7e9d2a1cb34711f1924c6bbc36c4c751__run_pdm_score.log",
+      "bytes": 74035,
+      "sha256": "f3a8bab20312eea28eb80f6e882e1f4dd7ddfd9c3d5cc2d0ed7b4d3b8dd95c48"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7eb50560b34711f1bc16574613822a13__run_pdm_score.log",
+      "bytes": 75582,
+      "sha256": "b058748ce20d12a8ad934a1de658aaa191a2d2617d22560cf29c03de739b8005"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7eb923b6b34711f19b55e1b12c42498c__run_pdm_score.log",
+      "bytes": 83863,
+      "sha256": "839a9c507d4ec378a8198dd1ae3cd09d60dc8e4fb132c5845c20d0a3bf5ca6e0"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7ebe0a20b34711f19e8fdbc0518e8430__run_pdm_score.log",
+      "bytes": 84864,
+      "sha256": "995c4636715579f36e8ce9427485e2a89a7752d1aae60609777a7d823b81a316"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7ec0cad0b34711f1b6a5934afc52dddc__run_pdm_score.log",
+      "bytes": 129245,
+      "sha256": "3b122a9eb00c2530cc73e1a055b7ee582f997e697c6094211017dca0f4497854"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/logs/7ed504f0b34711f19dedd54043672931__run_pdm_score.log",
+      "bytes": 109994,
+      "sha256": "8f9353c834fe7d1621b2717b6144b85d15996da620eb7fa86ec147cd3d83788e"
+    },
+    {
+      "path": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/run_pdm_score.log",
+      "bytes": 1104,
+      "sha256": "52069242cc9cfb767897c4ac76c5476bc4318ebcb933bdcb0bfc9acbc514648d"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/code/hydra/config.yaml",
+      "bytes": 3084260,
+      "sha256": "4a7a02db29518aa22e877b57950f205325466146ff59ab7d700b2a6caf2b2e45"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/code/hydra/hydra.yaml",
+      "bytes": 4448,
+      "sha256": "878e37a2d1347bcea9f2653683f230debbb8718ab70c60b1ed5c8404e98d19af"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/code/hydra/overrides.yaml",
+      "bytes": 408,
+      "sha256": "018186cdb4e9be1e1d8bb8dac83c8b6cc88ca34c1aed0c62f48a0f343ce6dfaa"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/lightning_logs/version_0/events.out.tfevents.1789718435.node03.1088144.0",
+      "bytes": 481894,
+      "sha256": "c3255421c2f7839eba627e7b47c0ef83ddcee526e7847f05ca9d06a1e4832de2"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/lightning_logs/version_0/hparams.yaml",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/run_training_weighted.log",
+      "bytes": 1267,
+      "sha256": "058efec5d1550bc7e7e8531afc1295898b9a15f2905ab6ddf523f9bcb8272a96"
+    },
+    {
+      "path": "results/finetune_v2_lr2e5/2026.09.18.07.59.40/train_ddp_process_1.log",
+      "bytes": 1267,
+      "sha256": "26b549dc98c62b91b1dc5b8b3db84b62863d8fb6c3dfbe31e5fdc63c737e53d4"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/2026.09.15.14.44.52.csv",
+      "bytes": 909266,
+      "sha256": "c8fcfc46e3e7530ff7644885cb190ea7c0169b8f22dde089d2c9401144a92427"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/code/hydra/config.yaml",
+      "bytes": 287615,
+      "sha256": "23a978f542b883ca29a1e243973dd5b32bcdef59fec6d8e45e9cbe539a4cef88"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/code/hydra/hydra.yaml",
+      "bytes": 4025,
+      "sha256": "219c6a986444c4b34bfd68ac5e450ecf6484226d583530a8cdbbbb6d620025ed"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/code/hydra/overrides.yaml",
+      "bytes": 135,
+      "sha256": "44d582755afc9af2cda0a300cad85961894a1bba58888cc39121606d30e6490f"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/log.txt",
+      "bytes": 1902,
+      "sha256": "8bf9ff5bbd33da99f90e72e19b55015c344986e757df0b09a05e4ab850ae3d64"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/logs/a446b004b0d011f1938b93ac614f7650__run_pdm_score.log",
+      "bytes": 161441,
+      "sha256": "2ad70ceb477a1a215e14b2336825a31323a75b52aa6d53179eb9cbc7ece87805"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/logs/a44c39cab0d011f19a07296cd6a56f02__run_pdm_score.log",
+      "bytes": 201710,
+      "sha256": "a533ddffe84e13471b880e5992ebdd3bbd842eeabec66ab5feca4a79149ae70a"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/logs/a44ddf1eb0d011f1a0da7fcf2a2ca3d6__run_pdm_score.log",
+      "bytes": 148142,
+      "sha256": "69db3925f945ded47d04778ab7701fc781bf5cb95a0e0ddcc1e14d056d4065fd"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/logs/a453fa02b0d011f1ae3bcd7a0baf6d07__run_pdm_score.log",
+      "bytes": 162464,
+      "sha256": "8ae02cc6d1a2cd14810d795d21b5ccc20a7a6879bfe29f20185da27d8e8466ab"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/logs/a460b940b0d011f1a074cdeb8e5a8b28__run_pdm_score.log",
+      "bytes": 196409,
+      "sha256": "be3d376fc8af21a0b9286840b899a5573c0bffd54128c3eecd18aeecea46714c"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/logs/a464a5aab0d011f1bb24f5e02b83194e__run_pdm_score.log",
+      "bytes": 253232,
+      "sha256": "7f0766b82de59c43cb09347adb8fe7d48603c9a7f33345c0c66fcfb7a426109c"
+    },
+    {
+      "path": "results/human_agent_eval/2026.09.15.14.42.23/run_pdm_score.log",
+      "bytes": 1145,
+      "sha256": "92070b9fb16607dccccd76d60b33e4b47338e41c1ecc0bd96183b02bc6a52013"
+    },
+    {
+      "path": "results/navtrain_proxy_features.csv",
+      "bytes": 7272037,
+      "sha256": "82db00e3419241778e7c07b0ae2bc8ce19d205c42cf606cd2f0075c5a2f6dd09"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/2026.09.16.03.15.20.csv",
+      "bytes": 8021,
+      "sha256": "31b7ecbb3ef256522e945ccb19a5606b54d9620ba58d1139b7cf77c0740b48f2"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/code/hydra/config.yaml",
+      "bytes": 288057,
+      "sha256": "e000d5e233f934e6e78ceeb7f61cf5b9f627b98195f96e1c126d69df98dc0746"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/code/hydra/hydra.yaml",
+      "bytes": 4184,
+      "sha256": "6990f2ca8a3682290469a24256d826fae59d8700755a656f73c63824545de30d"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/code/hydra/overrides.yaml",
+      "bytes": 288,
+      "sha256": "4022e5f9a2275622e92eb9d6a6d607957d441fee83ee5b8d4471a90f924cdcd2"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/log.txt",
+      "bytes": 1218,
+      "sha256": "35219bb2b0061eab7d5e8f5ede53dd36cd76c5c343d6eeaa27b814bf7ab7db35"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/logs/d51d14e6b17c11f1922a07024ceb8882__run_pdm_score.log",
+      "bytes": 9319,
+      "sha256": "ecb79113d76631e22f17d5b6a8c032c04b41c6adedf7ba209b896be633d52cdf"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/logs/d52c0b5eb17c11f1a0eddf55555bd2cc__run_pdm_score.log",
+      "bytes": 19568,
+      "sha256": "a2288b73bbdd59a872c73957fb83f36b574afd2e803e09dc8182777562714e0a"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/logs/d532c750b17c11f1a400b541d53eae88__run_pdm_score.log",
+      "bytes": 15536,
+      "sha256": "5e4ea67d67222198b1edca1576482249eb4be994224ebd83be5a7185e5c38ef7"
+    },
+    {
+      "path": "results/remote_smoke/2026.09.16.03.14.59/run_pdm_score.log",
+      "bytes": 825,
+      "sha256": "93fbd332c4b44669e70170a7000085c83bc2bbaa0f0c002fd3364d22b46d4c07"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/2026.09.16.03.21.45.csv",
+      "bytes": 21007,
+      "sha256": "e767102a3dab4ebd8e8cda3be5e4e8bd3c256934309cf5329b20b92f47c73883"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/code/hydra/config.yaml",
+      "bytes": 288058,
+      "sha256": "93d1dca8d7f867491aaef7c0497e82b12692ab0bad2c6470924e779c06068fcc"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/code/hydra/hydra.yaml",
+      "bytes": 4187,
+      "sha256": "52634d85de25bbf6353b1b25661f4611e3c4ced01499ac0b272200011fb13b6a"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/code/hydra/overrides.yaml",
+      "bytes": 289,
+      "sha256": "3fd0d291d5a48f09a5929d1a85bcb5bd41ba4d214ddd344bdf812e6c068fbb6e"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/log.txt",
+      "bytes": 1658,
+      "sha256": "2ab6c31394d7bf21065ee0cf352a0fc2ac0e676c46a00303678fc7223552bd93"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/logs/759c33d4b17d11f1aab5c1fc54114e46__run_pdm_score.log",
+      "bytes": 9971,
+      "sha256": "5011af6d867ab712c3f82bb8cd63ede12b32daab00f4c04505b2391981ba5b40"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/logs/75af9b72b17d11f197821d4b7e26566b__run_pdm_score.log",
+      "bytes": 12519,
+      "sha256": "46a4129bed933330d3cfe621409373a8df7162bb3cea241fe2b1b2be69cb0d3e"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/logs/75c6d6cab17d11f1bc879fda3fcdcb08__run_pdm_score.log",
+      "bytes": 6033,
+      "sha256": "4c86fe0c72fab13b9093526aa8ac1590f8839abdb3d3e4c942c315c5a544707f"
+    },
+    {
+      "path": "results/remote_smoke2/2026.09.16.03.19.29/run_pdm_score.log",
+      "bytes": 1197,
+      "sha256": "dd5eff6b828d84bffc1d46a64cffe156d455fe20ffb3c62a744eee0a062ec4b8"
+    },
+    {
+      "path": "results/step_scan/latency.json",
+      "bytes": 511,
+      "sha256": "e85a1705a37a4ac22bced1bac4848e3700a9b45953a2464f3177e9a019074487"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/2026.09.15.12.30.34.csv",
+      "bytes": 83755,
+      "sha256": "64f9a5ca40ac102ce08521d464a3f417796de19361c1cf0e8e05bd39b57c8e1a"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/code/hydra/config.yaml",
+      "bytes": 288114,
+      "sha256": "59a1b849d03a2794fdd164837b348fcfbd6a4df174bad1240f9ffa63e07ad5f5"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/code/hydra/hydra.yaml",
+      "bytes": 4459,
+      "sha256": "b40cd5c6543a00e75ba2f2f8fbebfdc0a24c1a4457fd1d1df154ff06aa2085ac"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/code/hydra/overrides.yaml",
+      "bytes": 345,
+      "sha256": "0b61b92c26aaf5597a723900c8a5731bad544f416398b6ae8dd2d24ce0fd23c3"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/log.txt",
+      "bytes": 2130,
+      "sha256": "ceeb0f808db51daac0f7a84de2a4b8b1061050d2641d1f97c8009021cc856957"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/logs/c298212cb0bd11f1add369b5ddabdc22__run_pdm_score.log",
+      "bytes": 36361,
+      "sha256": "1bcf45f4fb85d63c813eedef6c03d703bc18fd4de670aea2b542ff7e80056a24"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/logs/c29e9408b0bd11f18b5e6ba6aa8cb94e__run_pdm_score.log",
+      "bytes": 19799,
+      "sha256": "45ce54b490c62f73a830529ff293fcdec551ca92671b3e6c41c25bdf91c93135"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/logs/c2a91234b0bd11f1a401a9cfd00c7011__run_pdm_score.log",
+      "bytes": 13065,
+      "sha256": "6ea0feb055ff658771ee10f1fca6b613920263ea7c6913d00862b3b279c9e8c2"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/logs/c2ac067eb0bd11f1860bb19f71c91eb1__run_pdm_score.log",
+      "bytes": 16159,
+      "sha256": "c71bc1731e3a39574b2b2059c08a18493b8c76f721ffd72ae531d531767ff560"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/logs/c2b8b9b4b0bd11f1a866fd82cb3c8e68__run_pdm_score.log",
+      "bytes": 17342,
+      "sha256": "c46db75798f9ccaac5971f081b303db7cce61aed29fb30326cb6ab2280cc764f"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/logs/c2be22aab0bd11f1abde47ca37401efc__run_pdm_score.log",
+      "bytes": 8881,
+      "sha256": "93fa64c2b82ccf627b547516d3b2dd0d96c05d85c88d594975d479e7be189c4a"
+    },
+    {
+      "path": "results/step_scan/steps_1/2026.09.15.12.27.16/run_pdm_score.log",
+      "bytes": 1253,
+      "sha256": "f29df066b669f0fd092317dfe51454d86c180c7bea06d65b47eacb3c68e4aad5"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/2026.09.15.12.46.08.csv",
+      "bytes": 81909,
+      "sha256": "9c14894edd72d7150b39f112402f4c84b88d1418f83996857101bb54c7e17c1a"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/code/hydra/config.yaml",
+      "bytes": 288115,
+      "sha256": "f8beaa49748f5149e10a44e21823be285ef18c02b576378725448ae2cfa271ac"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/code/hydra/hydra.yaml",
+      "bytes": 4462,
+      "sha256": "5e586a73aa4d0bcb8ead14147f1cd0ce5173b363acd93ff4ad6de36cea94eb86"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/code/hydra/overrides.yaml",
+      "bytes": 346,
+      "sha256": "f3f3111728272c06f5780b04ff7980db0eefdd6d28e73d50c4178729fe1a4a5d"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/log.txt",
+      "bytes": 2131,
+      "sha256": "9523b65ee1dbb76750f78399c4f8eefbc6b161e93531a2810091733f7924a0af"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/logs/cc3bb6ecb0bf11f192b499e77c4b953c__run_pdm_score.log",
+      "bytes": 25623,
+      "sha256": "996f17169cce7fb878435921d4b197d2af0f8cb4335a4b8c1846facc3ca72d8c"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/logs/cc4265fab0bf11f19e75f1e810ff500a__run_pdm_score.log",
+      "bytes": 28899,
+      "sha256": "51dbbe433d97840b7d880e9305c53228749dbb425274fbba2b2c2903ad2d01cf"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/logs/cc4cf308b0bf11f1bd24d3ad2c779962__run_pdm_score.log",
+      "bytes": 16159,
+      "sha256": "5fe2fce27a7dd37abe482696065e15b9253899db9245bb20027ee19d0a0bbda6"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/logs/cc519de0b0bf11f1b6147de90ad6e83c__run_pdm_score.log",
+      "bytes": 12883,
+      "sha256": "085ac57415e04fc690481a12b6432209dae96f294d58aeecff559f2766cbc1ec"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/logs/cc572c92b0bf11f1a51521b16f6d1de8__run_pdm_score.log",
+      "bytes": 20800,
+      "sha256": "b7ad1c8de62558f9713c66496ce0e5148b919ba16794d3beb4835f91cb60d8e3"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/logs/cc5ffc14b0bf11f1810a25cb9b31f267__run_pdm_score.log",
+      "bytes": 7279,
+      "sha256": "293d4fc234d1f599d62b2de641800b5cfe0efddfbe3a6a2c899e81e2ada25862"
+    },
+    {
+      "path": "results/step_scan/steps_10/2026.09.15.12.41.52/run_pdm_score.log",
+      "bytes": 1254,
+      "sha256": "b0a0c6c37834e2d9e256c6ecac34f31da3bee38a7a5e4e0d4a56ebf1e00dc54b"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/2026.09.15.12.34.12.csv",
+      "bytes": 83820,
+      "sha256": "59ff21d62b4d7f9d3ee8b44d009b29dcb846ea0bcede1244cf0a8d0000fff902"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/code/hydra/config.yaml",
+      "bytes": 288114,
+      "sha256": "bf81f5cdfceeb9d25a2f8838f1345063b253decfb159fab3dbf8973b498b1d12"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/code/hydra/hydra.yaml",
+      "bytes": 4459,
+      "sha256": "e04cc0c3456969dcc69f189d98de3634737873a5ee03ceedb58ed73c83729b8f"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/code/hydra/overrides.yaml",
+      "bytes": 345,
+      "sha256": "8735ab73a7016c9a98e108fa7d5d64f66ae8bc9c10c61cebddf032e578ea829c"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/log.txt",
+      "bytes": 2130,
+      "sha256": "88e29d399bbb091dd6535cf903a67acd85bd1aafeaef0f9b80913d73f39c694b"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/logs/3e3a8b76b0be11f1982df7d41689507b__run_pdm_score.log",
+      "bytes": 36361,
+      "sha256": "9b5a211bcb953a96e3a7ef8b303d63014bb9e10b6aa264aa1e7be1af26a797a3"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/logs/3e40d274b0be11f1acb8bb2db2b49c7b__run_pdm_score.log",
+      "bytes": 19799,
+      "sha256": "c19b91fbbc8b7c86126f6cfb8e5a1d0a114b9a8b43677b924801102545533a9a"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/logs/3e4afaa6b0be11f1802b45fd05ec6787__run_pdm_score.log",
+      "bytes": 13065,
+      "sha256": "d48bde0f4b284b07f908ee26eee0a95e828dd479e079dd586538ed11335b3f16"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/logs/3e4b77c4b0be11f19a3cad728ba734aa__run_pdm_score.log",
+      "bytes": 16159,
+      "sha256": "938cbadd5c6966a544533f780a1d958c06eb96c08a035b3b87ed1f5124c95c76"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/logs/3e56b62ab0be11f1bf32239175575d71__run_pdm_score.log",
+      "bytes": 8881,
+      "sha256": "283c0eac64642d381126146ff95149ebbff26ac918526cb7ce46895bf2b5358c"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/logs/3e5803c2b0be11f1ab562b8d18f47e39__run_pdm_score.log",
+      "bytes": 17342,
+      "sha256": "c83fe9657c1117f0bb0f3e50f8ffbf00805790c1890d22aabc67c7f78384b6ad"
+    },
+    {
+      "path": "results/step_scan/steps_2/2026.09.15.12.30.44/run_pdm_score.log",
+      "bytes": 1253,
+      "sha256": "916b6d20e5f5f87456b6227745ba07342f10d932c32a8f09243ad9733dfcb3a8"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/2026.09.15.12.52.27.csv",
+      "bytes": 81936,
+      "sha256": "be1da8f8dff55b06b0bd862253740d107ea7cd3b61027f7ab83f672eafb189d4"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/code/hydra/config.yaml",
+      "bytes": 288115,
+      "sha256": "ad727159fc6b948571d80b36bdd7aa4c5cb7a64394c60d1b45398738b851096c"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/code/hydra/hydra.yaml",
+      "bytes": 4462,
+      "sha256": "409a6f8501d895e301ddede1d95b3134b9345be0f93baf1411cffa53ae64b6b2"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/code/hydra/overrides.yaml",
+      "bytes": 346,
+      "sha256": "401952a1474e7752e9cd2bd2e0e99679ed6fbdf49ffbba52b6256f21a441ecd8"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/log.txt",
+      "bytes": 2131,
+      "sha256": "71187d688d71a95a227948d1a917df9e70dbda4d6222c90f93ff5ef757ffc131"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/logs/6ad048d6b0c011f183a16b84bbb8acab__run_pdm_score.log",
+      "bytes": 25623,
+      "sha256": "4fdb3577a90431988544884b8d6c0f84352831407f4fc9ca236ad0736a92341a"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/logs/6adb60ccb0c011f187a925e0deca8248__run_pdm_score.log",
+      "bytes": 28899,
+      "sha256": "db44de33451cee25f613b855e5f015b588c8d41fa00dd6f3672a0636cf5c7bb2"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/logs/6ae32dd4b0c011f1b7f4fffc407af49d__run_pdm_score.log",
+      "bytes": 16159,
+      "sha256": "dfccfaf596e0a82c37812244d714a0dbb853ea3a808d48dc1964716a0e977a1d"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/logs/6ae8ac14b0c011f18641995667177767__run_pdm_score.log",
+      "bytes": 12883,
+      "sha256": "9ce07ada89c333782c5ac95f67c180127bb89ac5771c39a10edd8b60036df07f"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/logs/6aed962ab0c011f1ae3723dc2f601945__run_pdm_score.log",
+      "bytes": 20800,
+      "sha256": "51b5a25ef6f334c2c6b3f23d1f84e7c038e3c29ff1f32c42357e10f7b8e70cb1"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/logs/6af2d540b0c011f182cd331afff89d1f__run_pdm_score.log",
+      "bytes": 7279,
+      "sha256": "85e505294abe616fdc71d17b0f259bf9d882238594c1669b6ad6f01b05de05af"
+    },
+    {
+      "path": "results/step_scan/steps_20/2026.09.15.12.46.18/run_pdm_score.log",
+      "bytes": 1254,
+      "sha256": "aa8846b8cd081e2971cc288f8720c41af628df3f2710a684c23b1101c1197a74"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/2026.09.15.12.38.11.csv",
+      "bytes": 83789,
+      "sha256": "98bfd7f8477e50d6819ca2e421c324f7b9b1eca6bc31602307e26832c9b2ee4d"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/code/hydra/config.yaml",
+      "bytes": 288114,
+      "sha256": "b5dd6d8c5501db1b48235f4c50eb36c87de5a0314e6296641f426f54daa16831"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/code/hydra/hydra.yaml",
+      "bytes": 4459,
+      "sha256": "c17f867985406e503e4bcc2d61385ddddf530785b03fff0325f9443a9d4ecf9b"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/code/hydra/overrides.yaml",
+      "bytes": 345,
+      "sha256": "7e12faf7c8a81346d27912b2b87af96d8c7cefbb6f4b4bf6105a371060a7573d"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/log.txt",
+      "bytes": 2130,
+      "sha256": "afe2048a179553ddd3ab2b74a384ca1f5af5e064500bd36ab253a2a5e5a75906"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/logs/c020399cb0be11f180fe83c7dbc857b2__run_pdm_score.log",
+      "bytes": 36361,
+      "sha256": "09775daf67e310f590c6223236761d913d0bd37fa7bb089058a76934f2d29301"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/logs/c02a8726b0be11f182e7199c02a9001b__run_pdm_score.log",
+      "bytes": 19799,
+      "sha256": "24cd31834906b8e74ced37d6afa92f3e47ec511540e2089acbfcef8c0c77c057"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/logs/c02c22acb0be11f19d74cf697d1d8a1d__run_pdm_score.log",
+      "bytes": 13065,
+      "sha256": "6986497eaaa73b1e2e96cecafd037b37287a9a5ca9e96bc4f3bf2ad908c7abf9"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/logs/c03835f6b0be11f1805e97822baff155__run_pdm_score.log",
+      "bytes": 16159,
+      "sha256": "8fbd2cbe5d55c5c18c0bb666d20a9c2547cda5eb563c3a604d80f2666f1b8446"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/logs/c03df25cb0be11f1ad0d275cdd3b7f12__run_pdm_score.log",
+      "bytes": 8881,
+      "sha256": "c70126f4e366023cb352f39a86532e54b3c3f55e9476f20e56f3448ae2e85689"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/logs/c0446150b0be11f18af599c4fcb4c011__run_pdm_score.log",
+      "bytes": 17342,
+      "sha256": "c5e839024a83e9e02667f156adf57e6660e98486c1f81895f0a2d9b239726a64"
+    },
+    {
+      "path": "results/step_scan/steps_3/2026.09.15.12.34.22/run_pdm_score.log",
+      "bytes": 1253,
+      "sha256": "1f52b8fda06feea6fa7c7b285c50d8e6001276ce80e25e317b57b54d3ea75e5c"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/2026.09.15.12.41.42.csv",
+      "bytes": 81970,
+      "sha256": "3444721b72a7ba91c3ae4ebec34e0b4c43ab7ff9148fd1bd9149afaea7491e70"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/code/hydra/config.yaml",
+      "bytes": 288114,
+      "sha256": "f5f780e18a99a65c6a86ecb7bfda3d332a3ec49fb9bd9f332a5def6d93d1da11"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/code/hydra/hydra.yaml",
+      "bytes": 4459,
+      "sha256": "f6bca06909d8783a4799ff1f4f72038ae1182900471c8a09fd103ac866f459ef"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/code/hydra/overrides.yaml",
+      "bytes": 345,
+      "sha256": "4847aa2a72f657979f38fbb2c3a3cf7728e956a9d27e0884c28206edfb1ace3c"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/log.txt",
+      "bytes": 2130,
+      "sha256": "9e8d5f032a724a2707d285db42deceefedadd1e51b95273831298fa715f68529"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/logs/4e465bdeb0bf11f18ec545850fa73c0e__run_pdm_score.log",
+      "bytes": 25623,
+      "sha256": "51ffbb24133e5f163b6bd527cece873e887b2f35d797862bc3d073d1c4244d84"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/logs/4e4fe3d4b0bf11f19e93d712b7389ded__run_pdm_score.log",
+      "bytes": 28899,
+      "sha256": "b8b435339d5ab34ff0dd35580a6dc616a0641a1f554e20a104cc71bec166d4b8"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/logs/4e59df6ab0bf11f1ae7c7928e5391297__run_pdm_score.log",
+      "bytes": 16159,
+      "sha256": "bbe9bbde21b429fe655838cecc5236b6fc8e8ba1659da60514253d070d035ffe"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/logs/4e5f88e8b0bf11f1a8143b34263dceb6__run_pdm_score.log",
+      "bytes": 12883,
+      "sha256": "e84ca5f8e1680b03de077bddfc725f79098bcda7e066710210369d30beaee168"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/logs/4e673fdeb0bf11f1889435b7c9d3f968__run_pdm_score.log",
+      "bytes": 20800,
+      "sha256": "af66d5862b3444bc2049cdd940d94511fedbc795e055ae2c6e6c0b4eedcf9033"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/logs/4e6c1b6cb0bf11f1819dcb47635e013b__run_pdm_score.log",
+      "bytes": 7279,
+      "sha256": "2b165c2ee5869c000aa7f53a507121bb8f37b7077061f5305e068e9d730dcb43"
+    },
+    {
+      "path": "results/step_scan/steps_5/2026.09.15.12.38.21/run_pdm_score.log",
+      "bytes": 1253,
+      "sha256": "c0173697c4f0f209de185324b35896ae1585e87b348455fa71cacec0ba5b7bed"
+    },
+    {
+      "path": "results/step_scan/steps_tradeoff.png",
+      "bytes": 79909,
+      "sha256": "31be6f3907fe643872c322bd97da445d0ded25626b1fb111d128aa85fec77bfb"
+    },
+    {
+      "path": "results/step_scan/summary.csv",
+      "bytes": 515,
+      "sha256": "c464ac8ecfbd1f83e02ee42a94bdefb21c7e0662dab3818a7da2a6f88d54de3c"
+    },
+    {
+      "path": "results/training/checkpoints.json",
+      "bytes": 1103,
+      "sha256": "32130e2be00ef96b20a0babdaf6b6af0dc6f7e5d008f84f97b18c33c41b05bf7"
+    },
+    {
+      "path": "results/training/environment-freeze.txt",
+      "bytes": 4158,
+      "sha256": "cdc946d96d93f38664a8290d8591a6a1e8a0d38c97066a2c68d54ee97fe358a4"
+    },
+    {
+      "path": "results/training/executed-source.patch",
+      "bytes": 2685,
+      "sha256": "4e6b154c61b07afde6805e4a261f3c3d09e6a3f56a02434094b17c426a72cc79"
+    },
+    {
+      "path": "results/training/finetune_v1.log.gz",
+      "bytes": 543025,
+      "sha256": "cc5bbdc250bc219b8e588c0ade4b4774b0ba73b3d7216cec0ac11f30f5cb590d"
+    },
+    {
+      "path": "results/training/finetune_v2.log.gz",
+      "bytes": 213708,
+      "sha256": "08495c0abe9c3e7d291a6261d515bab9234def4904cc0ad9c31e77cf82b1506b"
+    },
+    {
+      "path": "results/training/runtime_tools/analyze_failures.py",
+      "bytes": 1657,
+      "sha256": "b5f22b44237cc93b438b7350e3f61837bc554979dd66c1d1620914d26861407b"
+    },
+    {
+      "path": "results/training/runtime_tools/download_all.sh",
+      "bytes": 2671,
+      "sha256": "fcd21802c96695ced5f6e620c169acfa19bb78ca5aa8907a6314f80cf92c0666"
+    },
+    {
+      "path": "results/training/runtime_tools/download_missing.sh",
+      "bytes": 718,
+      "sha256": "6d5259140e0f3a3ca28b36ad4daf3e266d15019a0fdb1a0c16c4a70253e08dfa"
+    },
+    {
+      "path": "results/training/runtime_tools/download_navtrain_local.sh",
+      "bytes": 1283,
+      "sha256": "e5607f02249051d42ff973018e683ac3389b3191edc6abc0e7f030875f12d9bf"
+    },
+    {
+      "path": "results/training/runtime_tools/env.sh",
+      "bytes": 350,
+      "sha256": "2fe2ef9823f875ac54494151ac4a56894ee0cb6163702d4e16eacaf0e2ebe56a"
+    },
+    {
+      "path": "results/training/runtime_tools/eval_v2_all.sh",
+      "bytes": 620,
+      "sha256": "818666bb4663d3f805ddcf7813c4f432766f79e705d094d9aeaf2798038f802f"
+    },
+    {
+      "path": "results/training/runtime_tools/executed_run_training_weighted.py",
+      "bytes": 4538,
+      "sha256": "1a1c968c6fc9c14ff1ec9c83b42b2bfd63839257e24ec89bc8bc7e0d4e9c46d6"
+    },
+    {
+      "path": "results/training/runtime_tools/failure_taxonomy.py",
+      "bytes": 2456,
+      "sha256": "e900a7da6a697af78fa526fd9ea6902d1adde174c343c0f73d2592bcd6dda62e"
+    },
+    {
+      "path": "results/training/runtime_tools/measure_latency.py",
+      "bytes": 2244,
+      "sha256": "a17ad054f750ce15b8877828dcd5ee9c0304f3498ef0f3fdf4e976fdf84222e2"
+    },
+    {
+      "path": "results/training/runtime_tools/plot_curves.py",
+      "bytes": 1542,
+      "sha256": "fc3d643d4154d07f79c0758c81faa92b74aa82a9467ea906d3d454ec41730553"
+    },
+    {
+      "path": "results/training/runtime_tools/proxy_features.py",
+      "bytes": 3475,
+      "sha256": "7f97a8b42cc3b1dea8c1ea26fff0fbf0d32a358398fe32f5d31b4aef61280a5f"
+    },
+    {
+      "path": "results/training/runtime_tools/render_cameras.py",
+      "bytes": 999,
+      "sha256": "85881af7fb87b899de4c5ae27708b5356cce038c1d6d3d986576a90dd2bb3f42"
+    },
+    {
+      "path": "results/training/runtime_tools/render_gif.py",
+      "bytes": 2879,
+      "sha256": "1f9ed1402157f1081e8868884ddca6b99d286467dd6387a27ac851ef303b3a57"
+    },
+    {
+      "path": "results/training/runtime_tools/render_scene.py",
+      "bytes": 1464,
+      "sha256": "3724c05f661c625ca04a5ef052ed5d29f42603ff8411be418ddbc06bbd0778b9"
+    },
+    {
+      "path": "results/training/runtime_tools/run_eval.sh",
+      "bytes": 737,
+      "sha256": "561332ea25076e24c32dc7f9ae1884823fc5d67fbbfa652e91af4625802b9720"
+    },
+    {
+      "path": "results/training/runtime_tools/run_training_weighted.py",
+      "bytes": 4328,
+      "sha256": "b9318db1e8291ec4a6bec57d2f0e99b70cd0d4f9153debf8f00a2af2e8368aee"
+    },
+    {
+      "path": "results/training/runtime_tools/scan_steps.sh",
+      "bytes": 1622,
+      "sha256": "0b6cbe312aca9c3d15b374bfd6695b65abff92d591f7623a1237ba7b13395360"
+    }
+  ]
+}

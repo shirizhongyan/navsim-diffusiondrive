@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # 用法: bash run_eval.sh [caching|eval]
 set -e
-cd ~/e2e-driving
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
 source env.sh
-CKPT=$E2E_ROOT/ckpt/hf_diffusiondrive/diffusiondrive_navsim_88p1_PDMS
+CKPT="${CHECKPOINT:-$E2E_ROOT/ckpt/hf_diffusiondrive/diffusiondrive_navsim_88p1_PDMS}"
 
 if [ "${1:-all}" = "caching" ] || [ "${1:-all}" = "all" ]; then
   python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_metric_caching.py \

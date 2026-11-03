@@ -1,0 +1,16 @@
+2026-09-18 07:15:33,130 INFO {/home/ps/e2e-driving/DiffusionDrive/navsim/planning/script/builders/worker_pool_builder.py:20}  Building WorkerPool...
+2026-09-18 07:15:36,267 INFO {/home/ps/e2e-driving/.venv/lib/python3.10/site-packages/nuplan/planning/utils/multithreading/worker_ray.py:78}  Starting ray local!
+2026-09-18 07:15:42,942 INFO {/home/ps/e2e-driving/.venv/lib/python3.10/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:101}  Worker: RayDistributed
+2026-09-18 07:15:42,943 INFO {/home/ps/e2e-driving/.venv/lib/python3.10/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:102}  Number of nodes: 1
+Number of CPUs per node: 12
+Number of GPUs per node: 2
+Number of threads across all nodes: 12
+2026-09-18 07:15:42,943 INFO {/home/ps/e2e-driving/DiffusionDrive/navsim/planning/script/builders/worker_pool_builder.py:31}  Building WorkerPool...DONE!
+2026-09-18 07:15:48,796 INFO {/home/ps/e2e-driving/DiffusionDrive/navsim/planning/script/run_pdm_score.py:130}  Starting pdm scoring of 12146 scenarios...
+2026-09-18 07:36:21,299 INFO {/home/ps/e2e-driving/DiffusionDrive/navsim/planning/script/run_pdm_score.py:153}  
+        Finished running evaluation.
+            Number of successful scenarios: 12146.
+            Number of failed scenarios: 0.
+            Final average score of valid results: 0.8752047097455358.
+            Results are stored in: /home/ps/e2e-driving/exp/finetune_hardmining_v1_eval/2026.09.18.07.15.32/2026.09.18.07.36.21.csv.
+        

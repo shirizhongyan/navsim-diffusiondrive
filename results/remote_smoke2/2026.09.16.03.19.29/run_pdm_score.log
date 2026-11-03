@@ -1,0 +1,17 @@
+[2026-09-16 03:19:29,856][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2026-09-16 03:19:32,926][nuplan.planning.utils.multithreading.worker_ray][INFO] - Starting ray local!
+[2026-09-16 03:19:39,461][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributed
+[2026-09-16 03:19:39,461][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 12
+Number of GPUs per node: 2
+Number of threads across all nodes: 12
+[2026-09-16 03:19:39,461][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!
+[2026-09-16 03:19:40,296][__main__][WARNING] - Unused metric cache for 11846 tokens. Skipping these tokens.
+[2026-09-16 03:19:40,296][__main__][INFO] - Starting pdm scoring of 300 scenarios...
+[2026-09-16 03:21:45,579][__main__][INFO] - 
+        Finished running evaluation.
+            Number of successful scenarios: 300.
+            Number of failed scenarios: 0.
+            Final average score of valid results: 0.8838000415713334.
+            Results are stored in: /home/ps/e2e-driving/exp/remote_smoke2/2026.09.16.03.19.29/2026.09.16.03.21.45.csv.
+        

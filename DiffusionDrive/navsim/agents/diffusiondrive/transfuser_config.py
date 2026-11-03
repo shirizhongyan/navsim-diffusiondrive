@@ -1,4 +1,6 @@
 from dataclasses import dataclass
+import os
+from pathlib import Path
 from typing import Tuple, List
 
 import numpy as np
@@ -15,8 +17,8 @@ class TransfuserConfig:
 
     image_architecture: str = "resnet34"
     lidar_architecture: str = "resnet34"
-    bkb_path: str = "/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/ckpt/resnet34.a1_in1k/pytorch_model.bin"
-    plan_anchor_path: str = "/home/linden/code/work/veloalpha/Velo-site/products/agent-rl/e2e-driving/ckpt/kmeans_navsim_traj_20.npy"
+    bkb_path: str = str(Path(os.environ.get("E2E_ROOT", Path(__file__).resolve().parents[4])) / "ckpt/resnet34.a1_in1k/pytorch_model.bin")
+    plan_anchor_path: str = str(Path(os.environ.get("E2E_ROOT", Path(__file__).resolve().parents[4])) / "ckpt/kmeans_navsim_traj_20.npy")
 
     latent: bool = False
     latent_rad_thresh: float = 4 * np.pi / 9

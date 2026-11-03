@@ -1,0 +1,69 @@
+{
+  "scoring": "Mean of valid scene scores x 100; excludes the CSV average row.",
+  "scope": "Single archived evaluation per checkpoint, not multi-seed uncertainty.",
+  "runs": [
+    {
+      "run": "diffusiondrive_agent_eval",
+      "scenes": 12146,
+      "pdms": 88.06845026397497,
+      "collision_failures": 224,
+      "baseline_collision_scenes_fixed": 0,
+      "new_collision_scenes": 0,
+      "evidence": "results/diffusiondrive_agent_eval/2026.09.14.19.36.40/2026.09.14.19.58.36.csv"
+    },
+    {
+      "run": "human_agent_eval",
+      "scenes": 12146,
+      "pdms": 94.55140385319649,
+      "collision_failures": 0,
+      "baseline_collision_scenes_fixed": 224,
+      "new_collision_scenes": 0,
+      "evidence": "results/human_agent_eval/2026.09.15.14.42.23/2026.09.15.14.44.52.csv"
+    },
+    {
+      "run": "finetune_hardmining_v1_eval",
+      "scenes": 12146,
+      "pdms": 87.52047097455358,
+      "collision_failures": 234,
+      "baseline_collision_scenes_fixed": 15,
+      "new_collision_scenes": 25,
+      "evidence": "results/finetune_hardmining_v1_eval/2026.09.18.07.15.32/2026.09.18.07.36.21.csv"
+    },
+    {
+      "run": "finetune_v2_eval_epoch00",
+      "scenes": 12146,
+      "pdms": 88.01273876230033,
+      "collision_failures": 223,
+      "baseline_collision_scenes_fixed": 8,
+      "new_collision_scenes": 7,
+      "evidence": "results/finetune_v2_eval_epoch00/2026.09.18.08.55.21/2026.09.18.09.16.12.csv"
+    },
+    {
+      "run": "finetune_v2_eval_epoch01",
+      "scenes": 12146,
+      "pdms": 87.88448334012557,
+      "collision_failures": 229,
+      "baseline_collision_scenes_fixed": 8,
+      "new_collision_scenes": 13,
+      "evidence": "results/finetune_v2_eval_epoch01/2026.09.18.09.16.22/2026.09.18.09.37.03.csv"
+    },
+    {
+      "run": "finetune_v2_eval_epoch02",
+      "scenes": 12146,
+      "pdms": 87.89954928252591,
+      "collision_failures": 218,
+      "baseline_collision_scenes_fixed": 16,
+      "new_collision_scenes": 10,
+      "evidence": "results/finetune_v2_eval_epoch02/2026.09.18.09.37.13/2026.09.18.09.58.00.csv"
+    },
+    {
+      "run": "finetune_v2_eval_epoch03",
+      "scenes": 12146,
+      "pdms": 87.95727724939536,
+      "collision_failures": 218,
+      "baseline_collision_scenes_fixed": 13,
+      "new_collision_scenes": 7,
+      "evidence": "results/finetune_v2_eval_epoch03/2026.09.18.09.58.10/2026.09.18.10.18.56.csv"
+    }
+  ]
+}

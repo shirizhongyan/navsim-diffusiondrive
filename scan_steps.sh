@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ② 扩散步数-精度权衡扫描: 对 steps ∈ {1,2,3,5,10,20} 在 navtest 子集上测 PDMS
 set -u
-cd ~/e2e-driving
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
 source env.sh
 CKPT=$E2E_ROOT/ckpt/hf_diffusiondrive/diffusiondrive_navsim_88p1_PDMS
 NSCENES=${NSCENES:-1200}

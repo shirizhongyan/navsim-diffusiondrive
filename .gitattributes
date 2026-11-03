@@ -1,0 +1,4 @@
+# Preserve original experiment logs and patches byte-for-byte.
+results/**/*.log -whitespace
+results/**/log.txt -whitespace
+results/training/executed-source.patch -whitespace

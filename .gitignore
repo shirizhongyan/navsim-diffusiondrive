@@ -1,0 +1,7 @@
+.venv/
+dataset/
+ckpt/
+exp/
+download_tmp*/
+__pycache__/
+*.pyc

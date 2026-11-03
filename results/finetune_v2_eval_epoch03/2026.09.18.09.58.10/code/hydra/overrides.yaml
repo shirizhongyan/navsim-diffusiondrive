@@ -1,0 +1,6 @@
+- train_test_split=navtest
+- agent=diffusiondrive_agent
+- worker=ray_distributed
+- worker.threads_per_node=12
+- agent.checkpoint_path=/home/ps/e2e-driving/ckpt/v2_epoch03.pth
+- experiment_name=finetune_v2_eval_epoch03

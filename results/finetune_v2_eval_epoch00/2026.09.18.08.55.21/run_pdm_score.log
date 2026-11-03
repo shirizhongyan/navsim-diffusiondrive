@@ -1,0 +1,16 @@
+[2026-09-18 08:55:21,901][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2026-09-18 08:55:24,956][nuplan.planning.utils.multithreading.worker_ray][INFO] - Starting ray local!
+[2026-09-18 08:55:30,522][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributed
+[2026-09-18 08:55:30,522][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 12
+Number of GPUs per node: 2
+Number of threads across all nodes: 12
+[2026-09-18 08:55:30,522][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!
+[2026-09-18 08:55:36,399][__main__][INFO] - Starting pdm scoring of 12146 scenarios...
+[2026-09-18 09:16:12,537][__main__][INFO] - 
+        Finished running evaluation.
+            Number of successful scenarios: 12146.
+            Number of failed scenarios: 0.
+            Final average score of valid results: 0.8801273876230032.
+            Results are stored in: /home/ps/e2e-driving/exp/finetune_v2_eval_epoch00/2026.09.18.08.55.21/2026.09.18.09.16.12.csv.
+        

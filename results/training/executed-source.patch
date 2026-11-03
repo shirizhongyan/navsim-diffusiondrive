@@ -1,0 +1,49 @@
+diff --git a/navsim/agents/diffusiondrive/modules/scheduler.py b/navsim/agents/diffusiondrive/modules/scheduler.py
+index 9f6482e..bc9a996 100644
+--- a/navsim/agents/diffusiondrive/modules/scheduler.py
++++ b/navsim/agents/diffusiondrive/modules/scheduler.py
+@@ -11,7 +11,7 @@ class WarmupCosLR(_LRScheduler):
+         self.lr = lr
+         self.epochs = epochs
+         self.warmup_epochs = warmup_epochs
+-        super(WarmupCosLR, self).__init__(optimizer, last_epoch, verbose)
++        super(WarmupCosLR, self).__init__(optimizer, last_epoch=last_epoch)
+ 
+     def state_dict(self):
+         """Returns the state of the scheduler as a :class:`dict`.
+diff --git a/navsim/agents/diffusiondrive/transfuser_config.py b/navsim/agents/diffusiondrive/transfuser_config.py
+index e5ea9c5..57d3015 100644
+--- a/navsim/agents/diffusiondrive/transfuser_config.py
++++ b/navsim/agents/diffusiondrive/transfuser_config.py
+@@ -15,8 +15,8 @@ class TransfuserConfig:
+ 
+     image_architecture: str = "resnet34"
+     lidar_architecture: str = "resnet34"
+-    bkb_path: str = "/home/users/bencheng.liao/.cache/huggingface/hub/checkpoints/resnet34.a1_in1k/pytorch_model.bin"
+-    plan_anchor_path: str = "/home/users/bencheng.liao/PlanWrapper/playground/visualization/kmeans_navsim_traj_20.npy"
++    bkb_path: str = "/home/ps/e2e-driving/ckpt/resnet34.a1_in1k/pytorch_model.bin"
++    plan_anchor_path: str = "/home/ps/e2e-driving/ckpt/kmeans_navsim_traj_20.npy"
+ 
+     latent: bool = False
+     latent_rad_thresh: float = 4 * np.pi / 9
+diff --git a/navsim/agents/diffusiondrive/transfuser_model_v2.py b/navsim/agents/diffusiondrive/transfuser_model_v2.py
+index 789c7d6..2b1cd04 100644
+--- a/navsim/agents/diffusiondrive/transfuser_model_v2.py
++++ b/navsim/agents/diffusiondrive/transfuser_model_v2.py
+@@ -3,6 +3,7 @@ import numpy as np
+ import torch
+ import torch.nn as nn
+ import copy
++import os
+ from navsim.agents.diffusiondrive.transfuser_config import TransfuserConfig
+ from navsim.agents.diffusiondrive.transfuser_backbone import TransfuserBackbone
+ from navsim.agents.diffusiondrive.transfuser_features import BoundingBox2DIndex
+@@ -502,7 +503,7 @@ class TrajectoryHead(nn.Module):
+         return {"trajectory": best_reg,"trajectory_loss":ret_traj_loss,"trajectory_loss_dict":trajectory_loss_dict}
+ 
+     def forward_test(self, ego_query,agents_query,bev_feature,bev_spatial_shape,status_encoding,global_img) -> Dict[str, torch.Tensor]:
+-        step_num = 2
++        step_num = int(os.environ.get('DD_STEP_NUM', '2'))  # 默认 2 (官方), 可用环境变量扫描
+         bs = ego_query.shape[0]
+         device = ego_query.device
+         self.diffusion_scheduler.set_timesteps(1000, device)

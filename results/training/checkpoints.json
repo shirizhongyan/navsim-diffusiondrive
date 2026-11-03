@@ -1,0 +1,36 @@
+{
+  "release": "research-archive-2026-11-03",
+  "repository": "shirizhongyan/navsim-diffusiondrive",
+  "files": [
+    {
+      "asset": "finetune_v1_epoch09.ckpt",
+      "bytes": 729519029,
+      "sha256": "8ef50f2df3fa4bb71fd59263508636c05aa0fef4b34f1477008868012e62d065"
+    },
+    {
+      "asset": "finetune_v2_epoch00.ckpt",
+      "bytes": 729518965,
+      "sha256": "3080d2bcf470cd9a3ddc5704a1fd55f15d1d99c520341cf42d73d2b8f335f766"
+    },
+    {
+      "asset": "finetune_v2_epoch01.ckpt",
+      "bytes": 729518965,
+      "sha256": "2f85287bf5f32920a6618255fa32de9797d67913c2dacfa18c35862c8727d360"
+    },
+    {
+      "asset": "finetune_v2_epoch02.ckpt",
+      "bytes": 729518965,
+      "sha256": "1040a4b89580adef840a9b08161758a4df34063b28ee63141077744562f005d1"
+    },
+    {
+      "asset": "finetune_v2_epoch03.ckpt",
+      "bytes": 729518965,
+      "sha256": "f9368a555700105b6129f6349f0afa1fdb59d01559440abb32488540408006a2"
+    },
+    {
+      "asset": "smoke_epoch00.ckpt",
+      "bytes": 729518965,
+      "sha256": "ed206aef6efe97fd29a51e686985e8ec6fc061ff5496c0e6ccfdf02dcd768431"
+    }
+  ]
+}

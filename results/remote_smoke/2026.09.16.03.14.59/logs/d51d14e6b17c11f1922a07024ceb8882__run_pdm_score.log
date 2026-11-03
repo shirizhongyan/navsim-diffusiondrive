@@ -1,0 +1,129 @@
+Starting worker in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+Loading pretrained weights from Hugging Face hub (timm/resnet34.a1_in1k)
+HTTP Request: HEAD https://hf-mirror.com/timm/resnet34.a1_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+[timm/resnet34.a1_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+Missing keys (fc.weight, fc.bias) discovered while loading pretrained weights. This is expected if model is being adapted.
+Processing scenario 1 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 33f04aa1460b5dc5:
+Processing scenario 2 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token fb2ff1ed5e1b529f:
+Processing scenario 3 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 942df6bcc0c65bf9:
+Processing scenario 4 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 4a1f69f3821e5ac5:
+Processing scenario 5 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token b42b3012c31c5b03:
+Processing scenario 6 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token befdd4140e4252e5:
+Processing scenario 7 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 72d842bc596b536b:
+Processing scenario 8 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token f57f56e799be599f:
+Processing scenario 9 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 8d4601efa6b6581e:
+Processing scenario 10 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 8afbc18a03e2572f:
+Processing scenario 11 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token e89ad5d8a66250f0:
+Processing scenario 12 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 9a357640ddd453d2:
+Processing scenario 13 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token e149babe2348549e:
+Processing scenario 14 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 5ea2a4ecc18752fa:
+Processing scenario 15 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token bdaa773585685d09:
+Processing scenario 16 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token ab8af92e0bda5def:
+Processing scenario 17 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 10db4b6fe64b5c10:
+Processing scenario 18 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 367967cea49c5dda:
+Processing scenario 19 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 48762908e4705b55:
+Processing scenario 20 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 635495c0e2295c4d:
+Processing scenario 21 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 27c1c1822dc75f7b:
+Processing scenario 22 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 2ec759b29e0155b5:
+Processing scenario 23 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 10193911d433540b:
+Processing scenario 24 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 19d546524016560f:
+Processing scenario 25 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token db07a6d7eacd57d1:
+Processing scenario 26 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 21b0b3ef9d2e59ed:
+Processing scenario 27 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 4a6dd3df952b5703:
+Processing scenario 28 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 84765426fd0a5a99:
+Processing scenario 29 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 5c4f8e6a644258d3:
+Processing scenario 30 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token fccd90b794b15d6a:
+Processing scenario 31 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 642a177df62954ad:
+Processing scenario 32 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 1e4f2f231ac0540e:
+Processing scenario 33 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 9678b0cccb565681:
+Processing scenario 34 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 6b9c0c971f9d5b9a:
+Processing scenario 35 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 2d88ea430674513d:
+Processing scenario 36 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token e1209ca7050c5033:
+Processing scenario 37 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 559c83269c035643:
+Processing scenario 38 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token abdc7a57df4a56cd:
+Processing scenario 39 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 6aa26df6c6d052cb:
+Processing scenario 40 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 80f6c94fed0c5519:
+Processing scenario 41 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 206322cf0cf45186:
+Processing scenario 42 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 2e7d8157798851f3:
+Processing scenario 43 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 83158ad924fc506c:
+Processing scenario 44 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 46c94b5d7c89561c:
+Processing scenario 45 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 29213c31b5895c5f:
+Processing scenario 46 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 612903ce91a2507c:
+Processing scenario 47 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token daf38cecd5045cf6:
+Processing scenario 48 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token e0094ac69a8955fb:
+Processing scenario 49 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token a64a3e4f2048576d:
+Processing scenario 50 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 19a79abcf14059d2:
+Processing scenario 51 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 7b3ba1d953a15802:
+Processing scenario 52 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token f18efb3a137b529a:
+Processing scenario 53 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token b2ec50201ac25ada:
+Processing scenario 54 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 463d1cf17f915536:
+Processing scenario 55 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token a780d35138495c38:
+Processing scenario 56 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token b84c079a32635d34:
+Processing scenario 57 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 3bf40232476b591b:
+Processing scenario 58 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 160e6592389759c5:
+Processing scenario 59 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 3c90de2a12a558b2:
+Processing scenario 60 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 49b32cb088ae53fe:
+Processing scenario 61 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 82c913dd14e05a84:
+Processing scenario 62 / 62 in thread_id=88f8a1bd-d5cd-4a83-9887-46a5cf926d23, node_id=0
+----------- Agent failed for token 3047f87f67555d16:

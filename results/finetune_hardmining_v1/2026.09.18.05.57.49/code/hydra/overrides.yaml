@@ -1,0 +1,11 @@
+- agent=diffusiondrive_agent
+- experiment_name=finetune_hardmining_v1
+- train_test_split=navtrain
+- split=trainval
+- agent.checkpoint_path=/home/ps/e2e-driving/ckpt/hf_diffusiondrive/diffusiondrive_navsim_88p1_PDMS
+- agent.lr=6e-5
+- trainer.params.max_epochs=10
+- dataloader.params.batch_size=32
+- cache_path=/home/ps/e2e-driving/exp/training_cache
+- use_cache_without_dataset=True
+- force_cache_computation=False

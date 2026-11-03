@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # navtrain 训练数据下载 (hf-mirror 版, 只要 current 帧, ~300GB → /data 盘)
 set -u
-DATA=/data/e2e_dataset/dataset
-DL=/data/e2e_dataset/download_tmp_navtrain
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+DATA="${TRAIN_DATA_ROOT:-$ROOT/dataset}"
+DL="${TRAIN_DOWNLOAD_ROOT:-$ROOT/download_tmp_navtrain}"
 mkdir -p $DL $DATA/navsim_logs $DATA/sensor_blobs/trainval
 OS=https://hf-mirror.com/datasets/OpenDriveLab/OpenScene/resolve/main
 
