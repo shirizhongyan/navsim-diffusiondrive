@@ -1,0 +1,143 @@
+{
+  "completed_at": "2026-11-03T08:55:07.479290+00:00",
+  "scope": "Only driving datasets, caches, duplicate checkpoints and driving-only virtual environment. Public source/evidence and all embodied assets retained.",
+  "allocated_bytes_removed": 260705050624,
+  "receipts": [
+    {
+      "mode": "remote",
+      "host": "node03",
+      "started_at": "2026-11-03T08:54:24.080544+00:00",
+      "publication": {
+        "repository": "shirizhongyan/navsim-diffusiondrive",
+        "public_commit": "dd3117b7c8fad27e4344a902f7ee6c70bca4132c",
+        "release_tag": "research-archive-2026-11-03",
+        "release_verified": true,
+        "public_source_verified": true,
+        "checkpoint_assets": [
+          {
+            "asset": "finetune_v1_epoch09.ckpt",
+            "bytes": 729519029,
+            "sha256": "8ef50f2df3fa4bb71fd59263508636c05aa0fef4b34f1477008868012e62d065"
+          },
+          {
+            "asset": "finetune_v2_epoch00.ckpt",
+            "bytes": 729518965,
+            "sha256": "3080d2bcf470cd9a3ddc5704a1fd55f15d1d99c520341cf42d73d2b8f335f766"
+          },
+          {
+            "asset": "finetune_v2_epoch01.ckpt",
+            "bytes": 729518965,
+            "sha256": "2f85287bf5f32920a6618255fa32de9797d67913c2dacfa18c35862c8727d360"
+          },
+          {
+            "asset": "finetune_v2_epoch02.ckpt",
+            "bytes": 729518965,
+            "sha256": "1040a4b89580adef840a9b08161758a4df34063b28ee63141077744562f005d1"
+          },
+          {
+            "asset": "finetune_v2_epoch03.ckpt",
+            "bytes": 729518965,
+            "sha256": "f9368a555700105b6129f6349f0afa1fdb59d01559440abb32488540408006a2"
+          },
+          {
+            "asset": "smoke_epoch00.ckpt",
+            "bytes": 729518965,
+            "sha256": "ed206aef6efe97fd29a51e686985e8ec6fc061ff5496c0e6ccfdf02dcd768431"
+          }
+        ]
+      },
+      "free_bytes_before": 842232918016,
+      "removed": [
+        {
+          "path": "/home/ps/e2e-driving/dataset",
+          "allocated_bytes_before": 237142769664
+        },
+        {
+          "path": "/home/ps/e2e-driving/exp",
+          "allocated_bytes_before": 7711170560
+        },
+        {
+          "path": "/home/ps/e2e-driving/ckpt",
+          "allocated_bytes_before": 1921630208
+        },
+        {
+          "path": "/home/ps/e2e-driving/.venv",
+          "allocated_bytes_before": 8781602816
+        }
+      ],
+      "completed_at": "2026-11-03T08:54:40.208213+00:00",
+      "free_bytes_after": 1089129267200,
+      "allocated_bytes_removed": 255557173248,
+      "preserved": [
+        "/home/ps/e2e-driving",
+        "/home/ps/openvla"
+      ]
+    },
+    {
+      "mode": "local",
+      "host": "gentoo-pc",
+      "started_at": "2026-11-03T08:54:32.065482+00:00",
+      "publication": {
+        "repository": "shirizhongyan/navsim-diffusiondrive",
+        "public_commit": "dd3117b7c8fad27e4344a902f7ee6c70bca4132c",
+        "release_tag": "research-archive-2026-11-03",
+        "release_verified": true,
+        "public_source_verified": true,
+        "checkpoint_assets": [
+          {
+            "asset": "finetune_v1_epoch09.ckpt",
+            "bytes": 729519029,
+            "sha256": "8ef50f2df3fa4bb71fd59263508636c05aa0fef4b34f1477008868012e62d065"
+          },
+          {
+            "asset": "finetune_v2_epoch00.ckpt",
+            "bytes": 729518965,
+            "sha256": "3080d2bcf470cd9a3ddc5704a1fd55f15d1d99c520341cf42d73d2b8f335f766"
+          },
+          {
+            "asset": "finetune_v2_epoch01.ckpt",
+            "bytes": 729518965,
+            "sha256": "2f85287bf5f32920a6618255fa32de9797d67913c2dacfa18c35862c8727d360"
+          },
+          {
+            "asset": "finetune_v2_epoch02.ckpt",
+            "bytes": 729518965,
+            "sha256": "1040a4b89580adef840a9b08161758a4df34063b28ee63141077744562f005d1"
+          },
+          {
+            "asset": "finetune_v2_epoch03.ckpt",
+            "bytes": 729518965,
+            "sha256": "f9368a555700105b6129f6349f0afa1fdb59d01559440abb32488540408006a2"
+          },
+          {
+            "asset": "smoke_epoch00.ckpt",
+            "bytes": 729518965,
+            "sha256": "ed206aef6efe97fd29a51e686985e8ec6fc061ff5496c0e6ccfdf02dcd768431"
+          }
+        ]
+      },
+      "free_bytes_before": 137555472384,
+      "removed": [
+        {
+          "path": "/home/linden/code/work/veloalpha/Velo-site/products/backup/2026-09-29-cleaned-local-products/agent-rl/e2e-driving/exp",
+          "allocated_bytes_before": 3226275840
+        },
+        {
+          "path": "/home/linden/code/work/veloalpha/Velo-site/products/backup/2026-09-29-cleaned-local-products/agent-rl/e2e-driving/ckpt",
+          "allocated_bytes_before": 1921560576
+        },
+        {
+          "path": "/home/linden/code/work/veloalpha/Velo-site/products/backup/2026-09-29-cleaned-local-products/agent-rl/e2e-driving/download_tmp",
+          "allocated_bytes_before": 40960
+        }
+      ],
+      "completed_at": "2026-11-03T08:54:32.471190+00:00",
+      "free_bytes_after": 142709366784,
+      "allocated_bytes_removed": 5147877376,
+      "preserved": [
+        "/home/linden/code/work/veloalpha/Velo-site/products/backup/2026-09-29-cleaned-local-products/agent-rl/e2e-driving",
+        "/home/linden/vla-oft-github"
+      ]
+    }
+  ]
+}

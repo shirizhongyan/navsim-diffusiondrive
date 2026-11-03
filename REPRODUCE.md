@@ -128,3 +128,10 @@ RECIPE=v2 bash train_weighted.sh
 保留本 Git 仓库、论文／学习对话和公开证据。不删除 `openvla/`、LIBERO、
 具身模型权重、具身数据、其他项目环境或整个 agent-rl 目录。
 实际删除清单与释放空间另存 `results/cleanup_receipt.json`。
+
+2026-11-03 已完成清理：shunyuan3 移除 `dataset/`、`exp/`、`ckpt/`、`.venv/`，
+所统计的原目录分配量合计约 238.01 GiB；本机旧归档移除 `exp/`、`ckpt/`、
+`download_tmp/`，约 4.79 GiB。原目录分配量与文件系统实际可用空间增量不完全相同，
+可能受共享底层文件、其他进程及文件系统记账影响，详见回执中的前后值。
+服务器自驾代码与少量日志仍保留约 99 MiB，具身目录保持完整；本 Git 仓库中的
+分析证据、可复现脚本和 GitHub Release 独有训练权重未删除。
